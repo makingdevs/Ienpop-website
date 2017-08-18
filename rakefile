@@ -1,3 +1,5 @@
-task :greet do
-  puts "hola mundo"
+task default: %w[runapp]
+
+task :runapp do
+  sh "bundle exec ruby app.rb"
 end
