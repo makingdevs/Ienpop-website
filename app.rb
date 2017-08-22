@@ -18,6 +18,19 @@ post '/Otra/contact/:p' do
   else
     erb :Otra
   end
-end 
+end
+
+get '/home' do 
+  erb :index
+end
+
+get '/about' do
+  erb :about 
+end
+
+
+
+
+
 
 
