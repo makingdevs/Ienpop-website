@@ -3,3 +3,4 @@ source "https://rubygems.org"
 
 gem 'sinatra', '~> 2.0'
 gem 'rake', '~> 12.0'
+gem "capistrano", "~> 3.9"
