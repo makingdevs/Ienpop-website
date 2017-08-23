@@ -31,3 +31,7 @@ end
 get '/contact' do
   erb :contact
 end
+
+get '/sedes' do 
+  erb :sedes
+end
