@@ -1,14 +1,15 @@
 # config valid only for current version of Capistrano
 lock "3.9.0"
 
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :application, "Ienpop-website"
+set :repo_url, "https://github.com/makingdevs/Ienpop-website"
+set :rbenv_ruby, '2.4.0'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-# set :deploy_to, "/var/www/my_app_name"
+ set :deploy_to, "/var/www/#{fetch(:application)}/qa"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
