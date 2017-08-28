@@ -35,3 +35,11 @@ set :rbenv_ruby, '2.4.0'
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
+namespace :deploy do
+  desc "mi intento de tarea"
+  task :test do
+    on roles(:app) do
+      execute "cd #{release_path} && bundle exec ruby app.rb"
+    end
+  end
+end
