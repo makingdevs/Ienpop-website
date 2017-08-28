@@ -1,2 +1,3 @@
 public/third-party/
 .DS_Store
+log/capistrano.log
