@@ -17,11 +17,12 @@
   <link rel="stylesheet" type="text/css" href="<%= url('third-party/reen-theme/assets/css/owl.transitions.css') %>">
   <link rel="stylesheet" type="text/css" href="<%= url('third-party/animate.css/animate.min.css') %>">
   <link rel="stylesheet" type="text/css" href="<%= url('third-party/aos/dist/aos.css') %>">
+  <link rel="stylesheet" type="text/css" href="<%= url('third-party/reen-theme/assets/css/cutomStyle.css') %>">
 
   <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Lato:400,900,300,700" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet">
-    
+
   <!-- Icons/Glyphs -->
   <link rel="stylesheet" type="text/css" href="<%= url('third-party/reen-theme/assets/fonts/fontello.css') %>">
 
@@ -78,9 +79,10 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">LIBRETA INTERNACIONAL</a>
 
                   <ul class="dropdown-menu">
-                    <li><a href="one-page1.html">LIBRETAS</a></li>
-                    <li><a href="one-page2.html">CERTIFICADOS DE COMPETENCIA</a></li>
-                    
+
+                    <li><a href="/libreta_int_lib">LIBRETAS</a></li>
+                    <li><a href="/libreta_int_cer">CERTIFICADOS DE COMPETENCIA</a></li>
+
                   </ul><!-- /.dropdown-menu -->
                 </li><!-- /.dropdown-submenu -->
 
@@ -88,9 +90,15 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">PEZCADORES</a>
 
                   <ul class="dropdown-menu">
+<<<<<<< HEAD
                     <li><a href="one-page1.html">LIBRETAS</a></li>
                     <li><a href="one-page2.html">CERTIFICADOS DE COMPETENCIA</a></li>
-                    
+
+=======
+                    <li><a href="/pezcadores_lib">LIBRETAS</a></li>
+                    <li><a href="/pezcadores_cer">CERTIFICADOS DE COMPETENCIA</a></li>
+
+>>>>>>> ca8ad94f417de3f7078ef242cbc1d865776ac7b2
                   </ul><!-- /.dropdown-menu -->
                 </li><!-- /.dropdown-submenu -->
 
@@ -98,30 +106,33 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">TUR&Iacute;STICO</a>
 
                   <ul class="dropdown-menu">
-                    <li><a href="one-page1.html">LIBRETAS</a></li>
-                    <li><a href="one-page2.html">CERTIFICADOS DE COMPETENCIA</a></li>
-                    
+
+                    <li><a href="/turistico_lib">LIBRETAS</a></li>
+                    <li><a href="/turistico_cer">CERTIFICADOS DE COMPETENCIA</a></li>
+
                   </ul><!-- /.dropdown-menu -->
                 </li><!-- /.dropdown-submenu -->
-                
+
                 <li class="dropdown-submenu hover">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">PLATAFORMAS Y BARCASAS
+                  <a href="/" class="dropdown-toggle" data-toggle="dropdown">PLATAFORMAS Y BARCASAS
                   </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/plataformas_barcasas">LIBRETAS</a></li>
+                  </ul><!-- /.dropdown-menu -->
                 </li>
-              
+
               </ul><!-- /.dropdown-menu -->
             </li><!-- /.dropdown -->
-            
+
             <li>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">SEDES
-              </a>
+              <a href="/sedes">SEDES</a>
             </li><!-- /.dropdown -->
-            
+
            <li>
               <a href="/contact">CONTACTO</a>
             </li><!-- /.dropdown -->
 
-            
+
 
           </ul><!-- /.nav -->
 
@@ -137,9 +148,9 @@
   <main>
     <%= yield %>
   </main>
-    
 
-  
+
+
     <!-- ============================================================= FOOTER ============================================================= -->
 
     <footer class="footer-bottom">
@@ -148,7 +159,7 @@
       </div><!-- .container -->
     </footer>
 
-    
+
     <!-- JavaScripts placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="<%= url('third-party/jquery/dist/jquery.min.js') %>"></script>
     <script type="text/javascript" src="<%= url('third-party/jquery.easing/js/jquery.easing.min.js') %>"></script>

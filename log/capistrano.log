@@ -1,0 +1,1689 @@
+# Logfile created on 2017-08-23 15:30:52 -0500 by logger.rb/56815
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 15:30:52 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [56e14ce5] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [56e14ce5] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [56e14ce5] Finished in 1.530 seconds with exit status 1 (failed).
+  WARN rbenv: 2.4.0 is not installed or not found in $HOME/.rbenv/versions/2.4.0
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 15:44:08 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b1b4f506] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b1b4f506] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [b1b4f506] Finished in 1.209 seconds with exit status 1 (failed).
+  WARN rbenv: 2.4.0 is not installed or not found in $HOME/.rbenv/versions/2.4.0
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 15:58:03 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [869d154f] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [869d154f] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [869d154f] Finished in 1.504 seconds with exit status 1 (failed).
+  WARN rbenv: 2.4.0 is not installed or not found in $HOME/.rbenv/versions/2.4.0
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 16:08:24 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8209dbb6] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8209dbb6] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [8209dbb6] Finished in 1.230 seconds with exit status 1 (failed).
+  WARN rbenv: 2.4.0 is not installed or not found in $HOME/.rbenv/versions/2.4.0
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 16:23:22 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9e2bd3eb] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9e2bd3eb] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [9e2bd3eb] Finished in 1.431 seconds with exit status 1 (failed).
+  WARN rbenv: 2.4.0 is not installed or not found in $HOME/.rbenv/versions/2.4.0
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 16:55:35 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d2395924] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d2395924] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [d2395924] Finished in 1.589 seconds with exit status 1 (failed).
+  WARN rbenv: 2.4.0 is not installed or not found in $HOME/.rbenv/versions/2.4.0
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 16:58:31 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6242c4cd] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6242c4cd] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [6242c4cd] Finished in 1.041 seconds with exit status 1 (failed).
+  WARN rbenv: 2.4.0 is not installed or not found in $HOME/.rbenv/versions/2.4.0
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 17:06:52 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [21bbd452] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [21bbd452] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [21bbd452] Finished in 1.630 seconds with exit status 1 (failed).
+  WARN rbenv: 2.4.0 is not installed or not found in $HOME/.rbenv/versions/2.4.0
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 17:13:24 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ed7668bd] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ed7668bd] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [ed7668bd] Finished in 1.360 seconds with exit status 0 (successful).
+ DEBUG [131177a4] Running /usr/bin/env which passenger as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [131177a4] Command: /usr/bin/env which passenger
+ DEBUG [131177a4] 	which: no passenger in (/usr/local/bin:/bin:/usr/bin)
+ DEBUG [131177a4] Finished in 0.138 seconds with exit status 1 (failed).
+  INFO [0a6b898e] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0a6b898e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [0a6b898e] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [7763a3ac] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [7763a3ac] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [7763a3ac] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [ed09efac] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ed09efac] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [ed09efac] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [ed09efac] Finished in 0.291 seconds with exit status 0 (successful).
+  INFO [47688e81] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [47688e81] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+ DEBUG [47688e81] 	mkdir: 
+ DEBUG [47688e81] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [47688e81] 	: Permission denied
+ DEBUG [47688e81] 	
+ DEBUG [47688e81] 	mkdir: 
+ DEBUG [47688e81] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [47688e81] 	: Permission denied
+ DEBUG [47688e81] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-23 17:15:25 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [63c3ff05] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [63c3ff05] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [63c3ff05] Finished in 1.072 seconds with exit status 0 (successful).
+ DEBUG [a3057cfc] Running /usr/bin/env which passenger as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a3057cfc] Command: /usr/bin/env which passenger
+ DEBUG [a3057cfc] 	which: no passenger in (/usr/local/bin:/bin:/usr/bin)
+ DEBUG [a3057cfc] Finished in 0.133 seconds with exit status 1 (failed).
+  INFO [9772e2d7] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9772e2d7] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [9772e2d7] Finished in 0.132 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [10197622] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [10197622] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [10197622] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [f15c3ac0] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f15c3ac0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [f15c3ac0] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [f15c3ac0] Finished in 0.252 seconds with exit status 0 (successful).
+  INFO [bc2d3082] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [bc2d3082] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+ DEBUG [bc2d3082] 	mkdir: 
+ DEBUG [bc2d3082] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [bc2d3082] 	: Permission denied
+ DEBUG [bc2d3082] 	
+ DEBUG [bc2d3082] 	mkdir: 
+ DEBUG [bc2d3082] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [bc2d3082] 	: Permission denied
+ DEBUG [bc2d3082] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 12:41:33 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [cabb43d1] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [cabb43d1] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [cabb43d1] Finished in 1.486 seconds with exit status 0 (successful).
+ DEBUG [f18aa673] Running /usr/bin/env which passenger as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f18aa673] Command: /usr/bin/env which passenger
+ DEBUG [f18aa673] 	which: no passenger in (/usr/local/bin:/bin:/usr/bin)
+ DEBUG [f18aa673] Finished in 0.136 seconds with exit status 1 (failed).
+  INFO [3bb88ad5] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3bb88ad5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [3bb88ad5] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [f9699542] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f9699542] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [f9699542] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [3feb9cb5] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3feb9cb5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [3feb9cb5] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [3feb9cb5] Finished in 0.286 seconds with exit status 0 (successful).
+  INFO [72d92a21] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [72d92a21] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+ DEBUG [72d92a21] 	mkdir: 
+ DEBUG [72d92a21] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [72d92a21] 	: Permission denied
+ DEBUG [72d92a21] 	
+ DEBUG [72d92a21] 	mkdir: 
+ DEBUG [72d92a21] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [72d92a21] 	: Permission denied
+ DEBUG [72d92a21] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 12:45:18 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [28725966] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [28725966] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [28725966] Finished in 1.127 seconds with exit status 0 (successful).
+ DEBUG [9d9bbb6b] Running /usr/bin/env which passenger as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9d9bbb6b] Command: /usr/bin/env which passenger
+ DEBUG [9d9bbb6b] 	which: no passenger in (/usr/local/bin:/bin:/usr/bin)
+ DEBUG [9d9bbb6b] Finished in 0.140 seconds with exit status 1 (failed).
+  INFO [247f1486] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [247f1486] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [247f1486] Finished in 0.145 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [d55fea3b] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d55fea3b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [d55fea3b] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [909c35a8] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [909c35a8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [909c35a8] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [909c35a8] Finished in 0.282 seconds with exit status 0 (successful).
+  INFO [4b884804] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4b884804] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+ DEBUG [4b884804] 	mkdir: 
+ DEBUG [4b884804] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [4b884804] 	: Permission denied
+ DEBUG [4b884804] 	
+ DEBUG [4b884804] 	mkdir: 
+ DEBUG [4b884804] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [4b884804] 	: Permission denied
+ DEBUG [4b884804] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 12:46:04 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2b2d376b] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2b2d376b] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [2b2d376b] Finished in 0.895 seconds with exit status 0 (successful).
+ DEBUG [0b7e3782] Running /usr/bin/env which passenger as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0b7e3782] Command: /usr/bin/env which passenger
+ DEBUG [0b7e3782] 	which: no passenger in (/usr/local/bin:/bin:/usr/bin)
+ DEBUG [0b7e3782] Finished in 0.133 seconds with exit status 1 (failed).
+  INFO [ea5ddb0e] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ea5ddb0e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [ea5ddb0e] Finished in 0.133 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [da6b7b26] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [da6b7b26] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [da6b7b26] Finished in 0.133 seconds with exit status 0 (successful).
+  INFO [42bce7d8] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [42bce7d8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [42bce7d8] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [42bce7d8] Finished in 0.272 seconds with exit status 0 (successful).
+  INFO [621adce5] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [621adce5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+ DEBUG [621adce5] 	mkdir: 
+ DEBUG [621adce5] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [621adce5] 	: Permission denied
+ DEBUG [621adce5] 	
+ DEBUG [621adce5] 	mkdir: 
+ DEBUG [621adce5] 	cannot create directory '/var/www/Ienpop-website'
+ DEBUG [621adce5] 	: Permission denied
+ DEBUG [621adce5] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 12:49:44 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3b316b94] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3b316b94] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [3b316b94] Finished in 1.173 seconds with exit status 0 (successful).
+ DEBUG [f76e1306] Running /usr/bin/env which passenger as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f76e1306] Command: /usr/bin/env which passenger
+ DEBUG [f76e1306] 	which: no passenger in (/usr/local/bin:/bin:/usr/bin)
+ DEBUG [f76e1306] Finished in 0.136 seconds with exit status 1 (failed).
+  INFO [48d1bb39] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [48d1bb39] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [48d1bb39] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [d775d7f5] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d775d7f5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [d775d7f5] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [5506f278] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5506f278] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [5506f278] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [5506f278] Finished in 0.278 seconds with exit status 0 (successful).
+  INFO [e7b78f7b] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e7b78f7b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [e7b78f7b] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 12:49:57 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e6610903] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e6610903] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [e6610903] Finished in 0.904 seconds with exit status 0 (successful).
+ DEBUG [5129e837] Running /usr/bin/env which passenger as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5129e837] Command: /usr/bin/env which passenger
+ DEBUG [5129e837] 	which: no passenger in (/usr/local/bin:/bin:/usr/bin)
+ DEBUG [5129e837] Finished in 0.134 seconds with exit status 1 (failed).
+  INFO [64406acb] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [64406acb] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [64406acb] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [d1af01a0] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d1af01a0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [d1af01a0] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [504dea86] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [504dea86] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [504dea86] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [504dea86] Finished in 0.335 seconds with exit status 0 (successful).
+  INFO [d3758181] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d3758181] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [d3758181] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 12:53:00 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [fd5ec508] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fd5ec508] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [fd5ec508] Finished in 1.003 seconds with exit status 0 (successful).
+ DEBUG [6996d12d] Running /usr/bin/env which passenger as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6996d12d] Command: /usr/bin/env which passenger
+ DEBUG [6996d12d] 	which: no passenger in (/usr/local/bin:/bin:/usr/bin)
+ DEBUG [6996d12d] Finished in 0.135 seconds with exit status 1 (failed).
+  INFO [a748d26d] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a748d26d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [a748d26d] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [af75e354] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [af75e354] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [af75e354] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [122b51fa] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [122b51fa] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [122b51fa] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [122b51fa] Finished in 0.441 seconds with exit status 0 (successful).
+  INFO [0356f2a6] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0356f2a6] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [0356f2a6] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [0c306668] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0c306668] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [0c306668] Finished in 0.136 seconds with exit status 1 (failed).
+ DEBUG [a8fed5d7] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a8fed5d7] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [a8fed5d7] Finished in 0.135 seconds with exit status 1 (failed).
+ DEBUG [d8da01f2] Running if test ! -d /var/www/Ienpop-website/qa; then echo "Directory does not exist '/var/www/Ienpop-website/qa'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d8da01f2] Command: if test ! -d /var/www/Ienpop-website/qa; then echo "Directory does not exist '/var/www/Ienpop-website/qa'" 1>&2; false; fi
+ DEBUG [d8da01f2] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [04c7e04f] Running /usr/bin/env git clone --mirror https://github.com/makingdevs/Ienpop-website /var/www/Ienpop-website/qa/repo as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [04c7e04f] Command: cd /var/www/Ienpop-website/qa && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git clone --mirror https://github.com/makingdevs/Ienpop-website /var/www/Ienpop-website/qa/repo )
+ DEBUG [04c7e04f] 	Cloning into bare repository '/var/www/Ienpop-website/qa/repo'...
+  INFO [04c7e04f] Finished in 0.328 seconds with exit status 0 (successful).
+ DEBUG [8a2faa92] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8a2faa92] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [8a2faa92] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [a8d927fc] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a8d927fc] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [a8d927fc] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [8311b2d5] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8311b2d5] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8311b2d5] 	Fetching origin
+  INFO [8311b2d5] Finished in 0.264 seconds with exit status 0 (successful).
+ DEBUG [cd35d72e] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [cd35d72e] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [cd35d72e] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [2603d5da] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824175303 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2603d5da] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824175303 )
+  INFO [2603d5da] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [ba109968] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824175303 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ba109968] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824175303 )
+  INFO [ba109968] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [ab4df790] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ab4df790] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [ab4df790] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [4c25a466] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4c25a466] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [4c25a466] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [4c25a466] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [795ee4e4] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824175303; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824175303'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [795ee4e4] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824175303; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824175303'" 1>&2; false; fi
+ DEBUG [795ee4e4] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [1cf8d1d7] Running /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1cf8d1d7] Command: cd /var/www/Ienpop-website/qa/releases/20170824175303 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION )
+  INFO [1cf8d1d7] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [342d3cf6] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824175303; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824175303'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [342d3cf6] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824175303; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824175303'" 1>&2; false; fi
+ DEBUG [342d3cf6] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [7d235f0b] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [7d235f0b] Command: cd /var/www/Ienpop-website/qa/releases/20170824175303 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [7d235f0b] 	The following gems are missing
+ DEBUG [7d235f0b] 	 * rake (12.0.0)
+ DEBUG [7d235f0b] 	 * mustermann (1.0.0)
+ DEBUG [7d235f0b] 	 * rack (2.0.3)
+ DEBUG [7d235f0b] 	 * rack-protection (2.0.0)
+ DEBUG [7d235f0b] 	 * tilt (2.0.8)
+ DEBUG [7d235f0b] 	 * sinatra (2.0.0)
+ DEBUG [7d235f0b] 	Install missing gems with `bundle install`
+ DEBUG [7d235f0b] Finished in 0.296 seconds with exit status 1 (failed).
+  INFO [0bfe8210] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/Ienpop-website/qa/shared/bundle --without development test --deployment --quiet as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0bfe8210] Command: cd /var/www/Ienpop-website/qa/releases/20170824175303 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/Ienpop-website/qa/shared/bundle --without development test --deployment --quiet )
+  INFO [0bfe8210] Finished in 2.093 seconds with exit status 0 (successful).
+  INFO [f1988d90] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824175303 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f1988d90] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824175303 /var/www/Ienpop-website/qa/releases/current )
+  INFO [f1988d90] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [1f5d28d8] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1f5d28d8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [1f5d28d8] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [fd08ab64] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824175303; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824175303'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fd08ab64] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824175303; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824175303'" 1>&2; false; fi
+ DEBUG [fd08ab64] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [b6fe251c] Running $HOME/.rbenv/bin/rbenv exec passenger -v as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b6fe251c] Command: cd /var/www/Ienpop-website/qa/releases/20170824175303 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec passenger -v )
+ DEBUG [b6fe251c] 	rbenv: passenger: command not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 12:59:51 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [34e0cd16] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [34e0cd16] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [34e0cd16] Finished in 1.186 seconds with exit status 0 (successful).
+  INFO [6ea78633] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6ea78633] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [6ea78633] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [43b0b926] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [43b0b926] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [43b0b926] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [5024e0f2] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5024e0f2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [5024e0f2] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [5024e0f2] Finished in 0.279 seconds with exit status 0 (successful).
+  INFO [1768617b] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1768617b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [1768617b] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 13:00:00 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b9136ee7] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b9136ee7] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [b9136ee7] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [a751cdb8] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a751cdb8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [a751cdb8] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [51ae8064] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [51ae8064] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [51ae8064] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [303219d4] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [303219d4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [303219d4] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [303219d4] Finished in 0.976 seconds with exit status 0 (successful).
+  INFO [0088ca63] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0088ca63] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [0088ca63] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [bbf92c59] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [bbf92c59] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [bbf92c59] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [adc5d8ff] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [adc5d8ff] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [adc5d8ff] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [adc5d8ff] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [2e0b6868] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2e0b6868] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [2e0b6868] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [bb11f0d5] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [bb11f0d5] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [bb11f0d5] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [dc205d54] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [dc205d54] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [dc205d54] Finished in 0.145 seconds with exit status 0 (successful).
+  INFO [c95c061a] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c95c061a] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [c95c061a] 	Fetching origin
+  INFO [c95c061a] Finished in 1.917 seconds with exit status 0 (successful).
+ DEBUG [7a95c6d3] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [7a95c6d3] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [7a95c6d3] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [27eb5390] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824180003 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [27eb5390] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824180003 )
+  INFO [27eb5390] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [f0a14e4a] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824180003 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f0a14e4a] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824180003 )
+  INFO [f0a14e4a] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [8a108973] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8a108973] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [8a108973] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [b5dabacd] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b5dabacd] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b5dabacd] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [b5dabacd] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [21845a52] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824180003; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824180003'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [21845a52] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824180003; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824180003'" 1>&2; false; fi
+ DEBUG [21845a52] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [6f9d195f] Running /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6f9d195f] Command: cd /var/www/Ienpop-website/qa/releases/20170824180003 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION )
+  INFO [6f9d195f] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [e9237d29] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824180003; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824180003'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e9237d29] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824180003; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824180003'" 1>&2; false; fi
+ DEBUG [e9237d29] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [f708ec6f] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f708ec6f] Command: cd /var/www/Ienpop-website/qa/releases/20170824180003 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [f708ec6f] 	The Gemfile's dependencies are satisfied
+ DEBUG [f708ec6f] Finished in 0.296 seconds with exit status 0 (successful).
+  INFO [a59378c8] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824180003 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a59378c8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824180003 /var/www/Ienpop-website/qa/releases/current )
+  INFO [a59378c8] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [91104490] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [91104490] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [91104490] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [67f50068] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [67f50068] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [67f50068] 	20170824175303	20170824180003
+ DEBUG [67f50068] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [03dbaace] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [03dbaace] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [03dbaace] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [a80c432f] Running /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170824180003 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a80c432f] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170824180003 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [a80c432f] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 13:00:39 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5dc9c265] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5dc9c265] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [5dc9c265] Finished in 0.918 seconds with exit status 0 (successful).
+  INFO [b77773d5] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b77773d5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [b77773d5] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [63ee9bb4] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [63ee9bb4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [63ee9bb4] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [a622c7d4] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a622c7d4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [a622c7d4] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [a622c7d4] Finished in 0.284 seconds with exit status 0 (successful).
+  INFO [a8735f96] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a8735f96] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [a8735f96] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [e6a2cfea] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e6a2cfea] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [e6a2cfea] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [6fbd7313] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6fbd7313] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [6fbd7313] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [6fbd7313] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [d634ddbf] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d634ddbf] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [d634ddbf] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [cc5a3a5e] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [cc5a3a5e] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [cc5a3a5e] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [6585505f] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6585505f] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [6585505f] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [44b1649c] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [44b1649c] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [44b1649c] 	Fetching origin
+  INFO [44b1649c] Finished in 0.253 seconds with exit status 0 (successful).
+ DEBUG [92678b6b] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [92678b6b] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [92678b6b] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [e41a1769] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824180042 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e41a1769] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824180042 )
+  INFO [e41a1769] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [0cee6e66] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824180042 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0cee6e66] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824180042 )
+  INFO [0cee6e66] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [d3e45e58] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d3e45e58] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [d3e45e58] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [86dda7b7] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [86dda7b7] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [86dda7b7] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [86dda7b7] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [7f344a6c] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824180042; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824180042'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [7f344a6c] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824180042; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824180042'" 1>&2; false; fi
+ DEBUG [7f344a6c] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [2ee1e564] Running /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2ee1e564] Command: cd /var/www/Ienpop-website/qa/releases/20170824180042 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION )
+  INFO [2ee1e564] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [b8260e7f] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824180042; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824180042'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b8260e7f] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824180042; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824180042'" 1>&2; false; fi
+ DEBUG [b8260e7f] Finished in 0.169 seconds with exit status 0 (successful).
+ DEBUG [4528749b] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4528749b] Command: cd /var/www/Ienpop-website/qa/releases/20170824180042 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [4528749b] 	The Gemfile's dependencies are satisfied
+ DEBUG [4528749b] Finished in 0.291 seconds with exit status 0 (successful).
+  INFO [0d99c10b] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824180042 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0d99c10b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824180042 /var/www/Ienpop-website/qa/releases/current )
+  INFO [0d99c10b] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [37ff9e8c] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [37ff9e8c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [37ff9e8c] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [903aed07] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [903aed07] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [903aed07] 	20170824175303	20170824180003	20170824180042
+ DEBUG [903aed07] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [bb233b67] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [bb233b67] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [bb233b67] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [6239fd83] Running /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170824180042 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6239fd83] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170824180042 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [6239fd83] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 15:32:39 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [fa41b15f] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fa41b15f] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [fa41b15f] Finished in 1.446 seconds with exit status 0 (successful).
+  INFO [057963cc] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [057963cc] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [057963cc] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [8fad0433] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8fad0433] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [8fad0433] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [06e0de3d] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [06e0de3d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [06e0de3d] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [06e0de3d] Finished in 0.301 seconds with exit status 0 (successful).
+  INFO [421e8ee9] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [421e8ee9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [421e8ee9] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [b88c2adf] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b88c2adf] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [b88c2adf] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [21ce2f2f] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [21ce2f2f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [21ce2f2f] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [21ce2f2f] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [fbad78aa] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fbad78aa] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [fbad78aa] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [d1f8fa54] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d1f8fa54] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [d1f8fa54] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [fa51d67a] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fa51d67a] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [fa51d67a] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [223a2709] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [223a2709] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [223a2709] 	Fetching origin
+  INFO [223a2709] Finished in 0.249 seconds with exit status 0 (successful).
+ DEBUG [d69e3381] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d69e3381] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [d69e3381] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [8bc2000c] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824203241 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8bc2000c] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824203241 )
+  INFO [8bc2000c] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [80edba31] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824203241 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [80edba31] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824203241 )
+  INFO [80edba31] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [e1a646f2] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e1a646f2] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [e1a646f2] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [fd3bff84] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fd3bff84] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [fd3bff84] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [fd3bff84] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [1c416fa4] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824203241; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824203241'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1c416fa4] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824203241; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824203241'" 1>&2; false; fi
+ DEBUG [1c416fa4] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [d4319b32] Running /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d4319b32] Command: cd /var/www/Ienpop-website/qa/releases/20170824203241 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION )
+  INFO [d4319b32] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [33c7b2ca] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824203241; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824203241'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [33c7b2ca] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824203241; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824203241'" 1>&2; false; fi
+ DEBUG [33c7b2ca] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [d8dd94a9] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d8dd94a9] Command: cd /var/www/Ienpop-website/qa/releases/20170824203241 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [d8dd94a9] 	The Gemfile's dependencies are satisfied
+ DEBUG [d8dd94a9] Finished in 0.287 seconds with exit status 0 (successful).
+  INFO [4a2eb289] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824203241 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4a2eb289] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824203241 /var/www/Ienpop-website/qa/releases/current )
+  INFO [4a2eb289] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [6cd037a2] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6cd037a2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [6cd037a2] Finished in 0.161 seconds with exit status 0 (successful).
+ DEBUG [0cf1517f] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0cf1517f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [0cf1517f] 	20170824175303	20170824180003	20170824180042	20170824203241
+ DEBUG [0cf1517f] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [f1394d08] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f1394d08] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [f1394d08] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [a52325bc] Running /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170824203241 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a52325bc] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170824203241 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [a52325bc] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 15:33:19 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [aa6a8144] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [aa6a8144] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [aa6a8144] Finished in 0.930 seconds with exit status 0 (successful).
+  INFO [58634433] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [58634433] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [58634433] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [3299f008] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3299f008] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [3299f008] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [e8ce1bb8] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e8ce1bb8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [e8ce1bb8] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [e8ce1bb8] Finished in 0.286 seconds with exit status 0 (successful).
+  INFO [bd0a82b4] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [bd0a82b4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [bd0a82b4] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [9e763f5c] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9e763f5c] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [9e763f5c] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [93e3d394] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [93e3d394] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [93e3d394] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [93e3d394] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [9971239f] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9971239f] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [9971239f] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [e142d21f] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e142d21f] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [e142d21f] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [a180bbf9] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a180bbf9] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [a180bbf9] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [6d4802b1] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6d4802b1] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [6d4802b1] 	Fetching origin
+  INFO [6d4802b1] Finished in 0.249 seconds with exit status 0 (successful).
+ DEBUG [96579031] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [96579031] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [96579031] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [441a3ca4] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824203322 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [441a3ca4] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170824203322 )
+  INFO [441a3ca4] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [6a1040d0] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824203322 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6a1040d0] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170824203322 )
+  INFO [6a1040d0] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [e85c0585] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e85c0585] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [e85c0585] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [cacef9b2] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [cacef9b2] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [cacef9b2] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [cacef9b2] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [7f202d87] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824203322; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824203322'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [7f202d87] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824203322; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824203322'" 1>&2; false; fi
+ DEBUG [7f202d87] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [91b5caef] Running /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [91b5caef] Command: cd /var/www/Ienpop-website/qa/releases/20170824203322 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION )
+  INFO [91b5caef] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [5d8b0377] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170824203322; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824203322'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5d8b0377] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170824203322; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170824203322'" 1>&2; false; fi
+ DEBUG [5d8b0377] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [6f61f330] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6f61f330] Command: cd /var/www/Ienpop-website/qa/releases/20170824203322 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [6f61f330] 	The Gemfile's dependencies are satisfied
+ DEBUG [6f61f330] Finished in 0.291 seconds with exit status 0 (successful).
+  INFO [da769a10] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824203322 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [da769a10] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170824203322 /var/www/Ienpop-website/qa/releases/current )
+  INFO [da769a10] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [30c7986e] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [30c7986e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [30c7986e] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [585546fd] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [585546fd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [585546fd] 	20170824175303	20170824180003	20170824180042	20170824203241	20170824203322
+ DEBUG [585546fd] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 5 deployed releases on qa-ienpop.barist.coffee
+  INFO No old releases (keeping newest 5) on qa-ienpop.barist.coffee
+ DEBUG [6a99588a] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6a99588a] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [6a99588a] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [8666392e] Running /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170824203322 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8666392e] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170824203322 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [8666392e] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-24 15:38:23 -0500 cap qa deploy:help
+  INFO ---------------------------------------------------------------------------
+ DEBUG [cb305fa9] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [cb305fa9] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [cb305fa9] Finished in 1.329 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 08:47:45 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4fb10ed3] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4fb10ed3] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [4fb10ed3] Finished in 1.796 seconds with exit status 0 (successful).
+  INFO [9d02e205] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9d02e205] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [9d02e205] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [4fd7ef39] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4fd7ef39] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [4fd7ef39] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [5a787b72] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5a787b72] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [5a787b72] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [5a787b72] Finished in 0.303 seconds with exit status 0 (successful).
+  INFO [d5610db4] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d5610db4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [d5610db4] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [a570bf57] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a570bf57] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [a570bf57] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [9225de97] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9225de97] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [9225de97] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [9225de97] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [fa9d474c] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fa9d474c] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [fa9d474c] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [fc3027a7] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fc3027a7] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [fc3027a7] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [abc8d7f2] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [abc8d7f2] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [abc8d7f2] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [489bf5a6] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [489bf5a6] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [489bf5a6] 	Fetching origin
+ DEBUG [489bf5a6] 	From https://github.com/makingdevs/Ienpop-website
+   f95b599..7f87b59  feature/2  -> feature/2
+  INFO [489bf5a6] Finished in 0.304 seconds with exit status 0 (successful).
+ DEBUG [73106dca] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [73106dca] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [73106dca] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [f3685134] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170825134748 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f3685134] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170825134748 )
+  INFO [f3685134] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [eaeda542] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170825134748 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [eaeda542] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170825134748 )
+  INFO [eaeda542] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [65f8a5a2] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [65f8a5a2] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [65f8a5a2] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [2afe94a6] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2afe94a6] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [2afe94a6] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [2afe94a6] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [73befafd] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170825134748; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825134748'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [73befafd] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170825134748; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825134748'" 1>&2; false; fi
+ DEBUG [73befafd] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [67970c16] Running /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [67970c16] Command: cd /var/www/Ienpop-website/qa/releases/20170825134748 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION )
+  INFO [67970c16] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [a086b9c3] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170825134748; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825134748'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a086b9c3] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170825134748; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825134748'" 1>&2; false; fi
+ DEBUG [a086b9c3] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [98708899] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [98708899] Command: cd /var/www/Ienpop-website/qa/releases/20170825134748 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [98708899] 	The Gemfile's dependencies are satisfied
+ DEBUG [98708899] Finished in 0.294 seconds with exit status 0 (successful).
+  INFO [a04e92b8] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170825134748 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a04e92b8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170825134748 /var/www/Ienpop-website/qa/releases/current )
+  INFO [a04e92b8] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [668581b3] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [668581b3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [668581b3] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [c62b58fd] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c62b58fd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [c62b58fd] 	20170824175303	20170824180003	20170824180042	20170824203241	20170824203322
+20170825134748
+ DEBUG [c62b58fd] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on qa-ienpop.barist.coffee
+  INFO [edf25800] Running /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170824175303 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [edf25800] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170824175303 )
+  INFO [edf25800] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [d5c6911e] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d5c6911e] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [d5c6911e] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [8a7fcb24] Running /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170825134748 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8a7fcb24] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170825134748 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [8a7fcb24] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 09:00:53 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [57521e98] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [57521e98] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [57521e98] Finished in 1.253 seconds with exit status 0 (successful).
+  INFO [9dfad016] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9dfad016] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [9dfad016] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [58020a9f] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [58020a9f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [58020a9f] Finished in 0.184 seconds with exit status 0 (successful).
+  INFO [8ecf55b2] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8ecf55b2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [8ecf55b2] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [8ecf55b2] Finished in 0.430 seconds with exit status 0 (successful).
+  INFO [5498f340] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5498f340] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [5498f340] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [39a48279] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [39a48279] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [39a48279] Finished in 0.133 seconds with exit status 0 (successful).
+ DEBUG [f5f87867] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f5f87867] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [f5f87867] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [f5f87867] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [de1c4415] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [de1c4415] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [de1c4415] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [271dc58d] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [271dc58d] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [271dc58d] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [14cc7d56] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [14cc7d56] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [14cc7d56] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [1795e162] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1795e162] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [1795e162] 	Fetching origin
+  INFO [1795e162] Finished in 0.252 seconds with exit status 0 (successful).
+ DEBUG [31f4eb02] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [31f4eb02] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [31f4eb02] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [3ebb75e1] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170825140056 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3ebb75e1] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170825140056 )
+  INFO [3ebb75e1] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [a74d6c58] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170825140056 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a74d6c58] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170825140056 )
+  INFO [a74d6c58] Finished in 0.145 seconds with exit status 0 (successful).
+ DEBUG [3125d31f] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3125d31f] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [3125d31f] Finished in 0.134 seconds with exit status 0 (successful).
+ DEBUG [aaa8358a] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [aaa8358a] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [aaa8358a] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [aaa8358a] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [70481866] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170825140056; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825140056'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [70481866] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170825140056; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825140056'" 1>&2; false; fi
+ DEBUG [70481866] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [9def3921] Running /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9def3921] Command: cd /var/www/Ienpop-website/qa/releases/20170825140056 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION )
+  INFO [9def3921] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [bd34255b] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170825140056; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825140056'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [bd34255b] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170825140056; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825140056'" 1>&2; false; fi
+ DEBUG [bd34255b] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [6bffeff7] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6bffeff7] Command: cd /var/www/Ienpop-website/qa/releases/20170825140056 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [6bffeff7] 	The Gemfile's dependencies are satisfied
+ DEBUG [6bffeff7] Finished in 0.296 seconds with exit status 0 (successful).
+  INFO [63b32d16] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170825140056 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [63b32d16] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170825140056 /var/www/Ienpop-website/qa/releases/current )
+  INFO [63b32d16] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [2c58a990] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2c58a990] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [2c58a990] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [80f2504e] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [80f2504e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [80f2504e] 	20170824180003	20170824180042	20170824203241	20170824203322	20170825134748
+20170825140056
+ DEBUG [80f2504e] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on qa-ienpop.barist.coffee
+  INFO [f78e746e] Running /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170824180003 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f78e746e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170824180003 )
+  INFO [f78e746e] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [4eb08f2c] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4eb08f2c] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [4eb08f2c] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [83250c6b] Running /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170825140056 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [83250c6b] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170825140056 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [83250c6b] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:02:44 -0500 cap qa deploy:rake
+  INFO ---------------------------------------------------------------------------
+ DEBUG [83fa13d3] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [83fa13d3] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [83fa13d3] Finished in 1.278 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:03:12 -0500 cap qa invoke:rake
+  INFO ---------------------------------------------------------------------------
+ DEBUG [315fcde2] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [315fcde2] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [315fcde2] Finished in 0.975 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:16:24 -0500 cap qa deploy:invoke task=app.rb
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a9d5a047] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a9d5a047] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [a9d5a047] Finished in 2.151 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:16:48 -0500 cap qa deploy:invoke task=app.rb
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b26bc672] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b26bc672] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [b26bc672] Finished in 0.922 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:17:12 -0500 cap qa invoke:rake task=app.rb
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5f200d57] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5f200d57] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [5f200d57] Finished in 0.895 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:17:26 -0500 cap qa invoke:rake task=ruby.app.rb
+  INFO ---------------------------------------------------------------------------
+ DEBUG [da968ede] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [da968ede] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [da968ede] Finished in 0.989 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:17:30 -0500 cap qa invoke:rake task=ruby:app.rb
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b247730b] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b247730b] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [b247730b] Finished in 0.922 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:35:37 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c80c68fb] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c80c68fb] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [c80c68fb] Finished in 1.555 seconds with exit status 0 (successful).
+  INFO [0e74b8a4] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0e74b8a4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [0e74b8a4] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [6be0d285] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6be0d285] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [6be0d285] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [b947d6c6] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b947d6c6] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [b947d6c6] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [b947d6c6] Finished in 0.288 seconds with exit status 0 (successful).
+  INFO [c98a6d8f] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c98a6d8f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [c98a6d8f] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [5f317c01] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5f317c01] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [5f317c01] Finished in 0.159 seconds with exit status 0 (successful).
+ DEBUG [b33a3b8e] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b33a3b8e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [b33a3b8e] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [b33a3b8e] Finished in 0.146 seconds with exit status 0 (successful).
+ DEBUG [b70ba8d5] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b70ba8d5] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [b70ba8d5] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [087d07ca] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [087d07ca] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [087d07ca] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [a3b693cb] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a3b693cb] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [a3b693cb] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [026e3b0c] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [026e3b0c] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [026e3b0c] 	Fetching origin
+  INFO [026e3b0c] Finished in 0.258 seconds with exit status 0 (successful).
+ DEBUG [adaf467d] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [adaf467d] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [adaf467d] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [7509811f] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170825153540 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [7509811f] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170825153540 )
+  INFO [7509811f] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [0fa9a4ed] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170825153540 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0fa9a4ed] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170825153540 )
+  INFO [0fa9a4ed] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [bfe396c9] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [bfe396c9] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [bfe396c9] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [06c01087] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [06c01087] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [06c01087] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [06c01087] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [71aa24ec] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170825153540; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825153540'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [71aa24ec] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170825153540; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825153540'" 1>&2; false; fi
+ DEBUG [71aa24ec] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [1631ef43] Running /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1631ef43] Command: cd /var/www/Ienpop-website/qa/releases/20170825153540 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION )
+  INFO [1631ef43] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [45bea488] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170825153540; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825153540'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [45bea488] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170825153540; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170825153540'" 1>&2; false; fi
+ DEBUG [45bea488] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [500b2ec1] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [500b2ec1] Command: cd /var/www/Ienpop-website/qa/releases/20170825153540 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [500b2ec1] 	The Gemfile's dependencies are satisfied
+ DEBUG [500b2ec1] Finished in 0.304 seconds with exit status 0 (successful).
+  INFO [9c831853] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170825153540 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9c831853] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170825153540 /var/www/Ienpop-website/qa/releases/current )
+  INFO [9c831853] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [48635329] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [48635329] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [48635329] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG [bce9cadb] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [bce9cadb] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [bce9cadb] 	20170824180042	20170824203241	20170824203322	20170825134748	20170825140056
+20170825153540
+ DEBUG [bce9cadb] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on qa-ienpop.barist.coffee
+  INFO [73a39307] Running /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170824180042 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [73a39307] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170824180042 )
+  INFO [73a39307] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [0aa8406a] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0aa8406a] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [0aa8406a] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [1d904e41] Running /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170825153540 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1d904e41] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at 583217d2f53010401e5024d72dcc57a9b60939cc) deployed as release 20170825153540 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [1d904e41] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:35:50 -0500 cap qa deploy:rake
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2c92f70d] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2c92f70d] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [2c92f70d] Finished in 0.934 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:37:04 -0500 cap qa invoke:rake
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c9b02336] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c9b02336] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [c9b02336] Finished in 1.133 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 10:37:26 -0500 cap qa invoke:rake task=my_task:rakefile
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5be31c67] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5be31c67] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [5be31c67] Finished in 0.892 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:20:36 -0500 cap qa
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b75daf23] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b75daf23] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:20:52 -0500 cap qa rake:my_task
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f63da8fc] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f63da8fc] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [f63da8fc] Finished in 0.935 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:21:06 -0500 cap qa rake:my_task
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b1005107] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b1005107] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [b1005107] Finished in 0.918 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:27:57 -0500 cap qa rake:test
+  INFO ---------------------------------------------------------------------------
+ DEBUG [35d75657] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [35d75657] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [35d75657] Finished in 1.319 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:28:07 -0500 cap qa rake:test
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f7ee0f24] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f7ee0f24] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [f7ee0f24] Finished in 0.922 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:28:51 -0500 cap qa deploy:test
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a9f3443f] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a9f3443f] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [a9f3443f] Finished in 0.900 seconds with exit status 0 (successful).
+  INFO [cf8e4696] Running cd /var/www/Ienpop-website/qa/current && ls as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [cf8e4696] Command: cd /var/www/Ienpop-website/qa/current && ls
+ DEBUG [cf8e4696] 	Gemfile
+Gemfile.lock
+REVISION
+app.rb
+bower.json
+public
+rakefile
+views
+  INFO [cf8e4696] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:30:02 -0500 cap qa deploy:test
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3292b9f2] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3292b9f2] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [3292b9f2] Finished in 1.064 seconds with exit status 0 (successful).
+  INFO [eb1fd2a6] Running cd /var/www/Ienpop-website/qa/current && rake as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [eb1fd2a6] Command: cd /var/www/Ienpop-website/qa/current && rake
+ DEBUG [eb1fd2a6] 	zsh:1: command not found: rake
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:36:05 -0500 cap qa deploy:test
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c38851fd] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c38851fd] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [c38851fd] Finished in 3.217 seconds with exit status 0 (successful).
+  INFO [68ab86fd] Running cd /var/www/Ienpop-website/qa/current && bundle exec ruby app.rb as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [68ab86fd] Command: cd /var/www/Ienpop-website/qa/current && bundle exec ruby app.rb
+ DEBUG [68ab86fd] 	zsh:1: command not found: bundle
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:36:42 -0500 cap qa deploy:test
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0dc8aa03] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0dc8aa03] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [0dc8aa03] Finished in 4.455 seconds with exit status 0 (successful).
+  INFO [90453803] Running cd /var/www/Ienpop-website/qa/current && bundle exec ruby app.rb as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [90453803] Command: cd /var/www/Ienpop-website/qa/current && bundle exec ruby app.rb
+ DEBUG [90453803] 	zsh:1: command not found: bundle
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:38:36 -0500 cap qa rake
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2b8179d3] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2b8179d3] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [2b8179d3] Finished in 1.443 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:39:03 -0500 cap qa invoke_rake
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2816e731] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2816e731] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:39:07 -0500 cap qa invoke:rake
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7d553ebd] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [7d553ebd] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [7d553ebd] Finished in 1.470 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:39:45 -0500 cap qa invoke:rake TASK=rake
+  INFO ---------------------------------------------------------------------------
+ DEBUG [aa8194f1] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [aa8194f1] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [aa8194f1] Finished in 1.250 seconds with exit status 0 (successful).
+ DEBUG [f0543bc7] Running if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f0543bc7] Command: if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi
+ DEBUG [f0543bc7] Finished in 0.170 seconds with exit status 0 (successful).
+  INFO [d3043a8e] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake rake as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d3043a8e] Command: cd /var/www/Ienpop-website/qa/current && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" RAILS_ENV="" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake rake )
+ DEBUG [d3043a8e] 	rake aborted!
+ DEBUG [d3043a8e] 	Don't know how to build task 'rake' (see --tasks)
+ DEBUG [d3043a8e] 	/var/www/Ienpop-website/qa/shared/bundle/ruby/2.4.0/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+/home/ec2-user/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/ec2-user/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+ DEBUG [d3043a8e] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:40:08 -0500 cap qa invoke:rake TASK=install
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3c3c1de3] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3c3c1de3] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [3c3c1de3] Finished in 3.615 seconds with exit status 0 (successful).
+ DEBUG [c1e9833f] Running if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c1e9833f] Command: if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi
+ DEBUG [c1e9833f] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [059a52b7] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake install as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [059a52b7] Command: cd /var/www/Ienpop-website/qa/current && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" RAILS_ENV="" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake install )
+ DEBUG [059a52b7] 	rake aborted!
+ DEBUG [059a52b7] 	Don't know how to build task 'install' (see --tasks)
+ DEBUG [059a52b7] 	/var/www/Ienpop-website/qa/shared/bundle/ruby/2.4.0/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+/home/ec2-user/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/ec2-user/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+ DEBUG [059a52b7] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:42:51 -0500 cap qa invoke:rake TASK=install
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c3732317] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c3732317] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [c3732317] Finished in 1.460 seconds with exit status 0 (successful).
+ DEBUG [4559554b] Running if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4559554b] Command: if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi
+ DEBUG [4559554b] Finished in 0.169 seconds with exit status 0 (successful).
+  INFO [e9c491bd] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake install as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e9c491bd] Command: cd /var/www/Ienpop-website/qa/current && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" RAILS_ENV="" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake install )
+ DEBUG [e9c491bd] 	rake aborted!
+ DEBUG [e9c491bd] 	Don't know how to build task 'install' (see --tasks)
+ DEBUG [e9c491bd] 	/var/www/Ienpop-website/qa/shared/bundle/ruby/2.4.0/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+/home/ec2-user/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/ec2-user/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+ DEBUG [e9c491bd] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:43:01 -0500 cap qa invoke:rake TASK=rake
+  INFO ---------------------------------------------------------------------------
+ DEBUG [265b27dd] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [265b27dd] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [265b27dd] Finished in 0.968 seconds with exit status 0 (successful).
+ DEBUG [3ad5686b] Running if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3ad5686b] Command: if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi
+ DEBUG [3ad5686b] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [fcac198e] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake rake as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fcac198e] Command: cd /var/www/Ienpop-website/qa/current && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" RAILS_ENV="" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake rake )
+ DEBUG [fcac198e] 	rake aborted!
+ DEBUG [fcac198e] 	Don't know how to build task 'rake' (see --tasks)
+ DEBUG [fcac198e] 	/var/www/Ienpop-website/qa/shared/bundle/ruby/2.4.0/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+/home/ec2-user/.rbenv/versions/2.4.0/bin/bundle:22:in `load'
+/home/ec2-user/.rbenv/versions/2.4.0/bin/bundle:22:in `<main>'
+ DEBUG [fcac198e] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:43:46 -0500 cap qa invoke:rake TASK=runapp
+  INFO ---------------------------------------------------------------------------
+ DEBUG [875a55ee] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [875a55ee] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [875a55ee] Finished in 0.988 seconds with exit status 0 (successful).
+ DEBUG [322c2ec5] Running if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [322c2ec5] Command: if test ! -d /var/www/Ienpop-website/qa/current; then echo "Directory does not exist '/var/www/Ienpop-website/qa/current'" 1>&2; false; fi
+ DEBUG [322c2ec5] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [37339eca] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake runapp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [37339eca] Command: cd /var/www/Ienpop-website/qa/current && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" RAILS_ENV="" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake runapp )
+ DEBUG [37339eca] 	bundle exec ruby app.rb
+ DEBUG [37339eca] 	
+ DEBUG [37339eca] 	[2017-08-25 16:43:48] INFO  WEBrick 1.3.1
+ DEBUG [37339eca] 	[2017-08-25 16:43:48] INFO  ruby 2.4.0 (2016-12-24) [x86_64-linux]
+ DEBUG [37339eca] 	== Sinatra (v2.0.0) has taken the stage on 4567 for development with backup from WEBrick
+ DEBUG [37339eca] 	
+ DEBUG [37339eca] 	[2017-08-25 16:43:48] INFO  WEBrick::HTTPServer#start: pid=2919 port=4567
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-25 11:45:00 -0500 cap qa deploy:test
+  INFO ---------------------------------------------------------------------------
+ DEBUG [152cc079] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [152cc079] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [152cc079] Finished in 1.122 seconds with exit status 0 (successful).
+  INFO [a4aed277] Running cd /var/www/Ienpop-website/qa/current && bundle exec ruby app.rb as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a4aed277] Command: cd /var/www/Ienpop-website/qa/current && bundle exec ruby app.rb
+ DEBUG [a4aed277] 	zsh:1: command not found: bundle
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-28 15:06:18 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b3ed4268] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b3ed4268] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [b3ed4268] Finished in 1.383 seconds with exit status 0 (successful).
+ DEBUG [546dc08f] Running /usr/bin/env which passenger as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [546dc08f] Command: /usr/bin/env which passenger
+ DEBUG [546dc08f] 	which: no passenger in (/usr/local/bin:/bin:/usr/bin)
+ DEBUG [546dc08f] Finished in 0.157 seconds with exit status 1 (failed).
+  INFO [455ea702] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [455ea702] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [455ea702] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [c7abe881] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c7abe881] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [c7abe881] Finished in 0.145 seconds with exit status 0 (successful).
+  INFO [a15f3365] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a15f3365] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [a15f3365] 	583217d2f53010401e5024d72dcc57a9b60939cc	HEAD
+  INFO [a15f3365] Finished in 0.310 seconds with exit status 0 (successful).
+  INFO [1747bf22] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1747bf22] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [1747bf22] Finished in 0.234 seconds with exit status 0 (successful).
+ DEBUG [895f91bf] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [895f91bf] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [895f91bf] Finished in 0.163 seconds with exit status 0 (successful).
+ DEBUG [9848c808] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9848c808] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [9848c808] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [9848c808] Finished in 0.162 seconds with exit status 0 (successful).
+ DEBUG [98888e22] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [98888e22] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [98888e22] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [27051d7f] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [27051d7f] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [27051d7f] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO [abe9d148] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [abe9d148] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [abe9d148] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [f668d680] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f668d680] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [f668d680] 	Fetching origin
+ DEBUG [f668d680] 	From https://github.com/makingdevs/Ienpop-website
+   7f87b59..ca8ad94  feature/2  -> feature/2
+ * [new branch]      feature/4  -> feature/4
+  INFO [f668d680] Finished in 0.322 seconds with exit status 0 (successful).
+ DEBUG [9e81712a] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9e81712a] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [9e81712a] Finished in 0.160 seconds with exit status 0 (successful).
+  INFO [53d38675] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170828200622 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [53d38675] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170828200622 )
+  INFO [53d38675] Finished in 0.189 seconds with exit status 0 (successful).
+  INFO [1b8da333] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170828200622 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1b8da333] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170828200622 )
+  INFO [1b8da333] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG [53f463e6] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [53f463e6] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [53f463e6] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG [e27b826b] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e27b826b] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [e27b826b] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [e27b826b] Finished in 0.157 seconds with exit status 0 (successful).
+ DEBUG [f143bad4] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170828200622; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828200622'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f143bad4] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170828200622; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828200622'" 1>&2; false; fi
+ DEBUG [f143bad4] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [43437622] Running /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [43437622] Command: cd /var/www/Ienpop-website/qa/releases/20170828200622 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "583217d2f53010401e5024d72dcc57a9b60939cc" >> REVISION )
+  INFO [43437622] Finished in 0.165 seconds with exit status 0 (successful).
+ DEBUG [f79a7bf6] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170828200622; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828200622'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f79a7bf6] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170828200622; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828200622'" 1>&2; false; fi
+ DEBUG [f79a7bf6] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [4dc74ea3] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4dc74ea3] Command: cd /var/www/Ienpop-website/qa/releases/20170828200622 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [4dc74ea3] 	The Gemfile's dependencies are satisfied
+ DEBUG [4dc74ea3] Finished in 0.308 seconds with exit status 0 (successful).
+  INFO [ae11d989] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170828200622 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ae11d989] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170828200622 /var/www/Ienpop-website/qa/releases/current )
+  INFO [ae11d989] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [359fe7f2] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [359fe7f2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [359fe7f2] Finished in 0.187 seconds with exit status 0 (successful).
+ DEBUG [db1363d6] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170828200622; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828200622'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [db1363d6] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170828200622; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828200622'" 1>&2; false; fi
+ DEBUG [db1363d6] Finished in 0.145 seconds with exit status 0 (successful).
+ DEBUG [6797897c] Running $HOME/.rbenv/bin/rbenv exec passenger -v as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6797897c] Command: cd /var/www/Ienpop-website/qa/releases/20170828200622 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec passenger -v )
+ DEBUG [6797897c] 	rbenv: passenger: command not found
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-28 15:54:55 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f655990b] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f655990b] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [f655990b] Finished in 1.238 seconds with exit status 0 (successful).
+  INFO [7ca4e4ad] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [7ca4e4ad] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [7ca4e4ad] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [b320bd8c] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b320bd8c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [b320bd8c] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [2b7b594f] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2b7b594f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [2b7b594f] 	9da0ce56d0ebf7f30fb0e7ce4ba120f94f748c8d	HEAD
+  INFO [2b7b594f] Finished in 0.336 seconds with exit status 0 (successful).
+  INFO [96c59bb5] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [96c59bb5] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [96c59bb5] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-28 15:55:01 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e8e1e550] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e8e1e550] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [e8e1e550] Finished in 1.047 seconds with exit status 0 (successful).
+  INFO [e39c1948] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e39c1948] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [e39c1948] Finished in 0.169 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [8c537928] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [8c537928] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [8c537928] Finished in 0.144 seconds with exit status 0 (successful).
+  INFO [fc00927f] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fc00927f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [fc00927f] 	9da0ce56d0ebf7f30fb0e7ce4ba120f94f748c8d	HEAD
+  INFO [fc00927f] Finished in 0.311 seconds with exit status 0 (successful).
+  INFO [378f0bbc] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [378f0bbc] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [378f0bbc] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [19aa0904] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [19aa0904] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [19aa0904] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG [d5526029] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d5526029] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [d5526029] 	583217d2f53010401e5024d72dcc57a9b60939cc
+ DEBUG [d5526029] Finished in 0.183 seconds with exit status 0 (successful).
+ DEBUG [e1b58965] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e1b58965] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [e1b58965] Finished in 0.146 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [5cf06cb2] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5cf06cb2] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [5cf06cb2] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [d5f8839e] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d5f8839e] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [d5f8839e] Finished in 0.159 seconds with exit status 0 (successful).
+  INFO [0062144b] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0062144b] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [0062144b] 	Fetching origin
+ DEBUG [0062144b] 	From https://github.com/makingdevs/Ienpop-website
+   1fbd187..9da0ce5  master     -> master
+  INFO [0062144b] Finished in 0.325 seconds with exit status 0 (successful).
+ DEBUG [b43ecce7] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b43ecce7] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [b43ecce7] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [17da9b2c] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170828205504 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [17da9b2c] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170828205504 )
+  INFO [17da9b2c] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO [85c8aa71] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170828205504 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [85c8aa71] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170828205504 )
+  INFO [85c8aa71] Finished in 0.150 seconds with exit status 0 (successful).
+ DEBUG [0cf41e3d] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0cf41e3d] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [0cf41e3d] Finished in 0.149 seconds with exit status 0 (successful).
+ DEBUG [7467e547] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [7467e547] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [7467e547] 	9da0ce56d0ebf7f30fb0e7ce4ba120f94f748c8d
+ DEBUG [7467e547] Finished in 0.159 seconds with exit status 0 (successful).
+ DEBUG [797e6fdc] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170828205504; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828205504'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [797e6fdc] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170828205504; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828205504'" 1>&2; false; fi
+ DEBUG [797e6fdc] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [ec021705] Running /usr/bin/env echo "9da0ce56d0ebf7f30fb0e7ce4ba120f94f748c8d" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ec021705] Command: cd /var/www/Ienpop-website/qa/releases/20170828205504 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "9da0ce56d0ebf7f30fb0e7ce4ba120f94f748c8d" >> REVISION )
+  INFO [ec021705] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [5c203fe9] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170828205504; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828205504'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5c203fe9] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170828205504; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828205504'" 1>&2; false; fi
+ DEBUG [5c203fe9] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [4d3e25dd] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4d3e25dd] Command: cd /var/www/Ienpop-website/qa/releases/20170828205504 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [4d3e25dd] 	The following gems are missing
+ DEBUG [4d3e25dd] 	 * sshkit (1.14.0)
+ DEBUG [4d3e25dd] 	 * airbrussh (1.3.0)
+ DEBUG [4d3e25dd] 	 * capistrano (3.9.0)
+ DEBUG [4d3e25dd] 	 * capistrano-bundler (1.2.0)
+ DEBUG [4d3e25dd] 	 * capistrano-rbenv (2.1.1)
+ DEBUG [4d3e25dd] 	Install missing gems with `bundle install`
+ DEBUG [4d3e25dd] Finished in 0.295 seconds with exit status 1 (failed).
+  INFO [96ebcbed] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/Ienpop-website/qa/shared/bundle --without development test --deployment --quiet as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [96ebcbed] Command: cd /var/www/Ienpop-website/qa/releases/20170828205504 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /var/www/Ienpop-website/qa/shared/bundle --without development test --deployment --quiet )
+  INFO [96ebcbed] Finished in 1.906 seconds with exit status 0 (successful).
+  INFO [4ed0c2aa] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170828205504 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4ed0c2aa] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170828205504 /var/www/Ienpop-website/qa/releases/current )
+  INFO [4ed0c2aa] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [f55fa392] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [f55fa392] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [f55fa392] Finished in 0.148 seconds with exit status 0 (successful).
+ DEBUG [919966a1] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [919966a1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [919966a1] 	20170825134748	20170825140056	20170825153540	20170828200622	20170828203117
+20170828204942	20170828205105	20170828205504
+ DEBUG [919966a1] Finished in 0.202 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 8 deployed releases on qa-ienpop.barist.coffee
+  INFO [b23cb65e] Running /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170825134748 /var/www/Ienpop-website/qa/releases/20170825140056 /var/www/Ienpop-website/qa/releases/20170825153540 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b23cb65e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170825134748 /var/www/Ienpop-website/qa/releases/20170825140056 /var/www/Ienpop-website/qa/releases/20170825153540 )
+  INFO [b23cb65e] Finished in 0.159 seconds with exit status 0 (successful).
+ DEBUG [6026d373] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6026d373] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [6026d373] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [ee93391b] Running /usr/bin/env echo "Branch master (at 9da0ce56d0ebf7f30fb0e7ce4ba120f94f748c8d) deployed as release 20170828205504 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ee93391b] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at 9da0ce56d0ebf7f30fb0e7ce4ba120f94f748c8d) deployed as release 20170828205504 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [ee93391b] Finished in 0.158 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-28 16:07:05 -0500 cap qa deploy:check
+  INFO ---------------------------------------------------------------------------
+ DEBUG [fce7837f] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fce7837f] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [fce7837f] Finished in 1.319 seconds with exit status 0 (successful).
+  INFO [b78d4725] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b78d4725] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [b78d4725] Finished in 0.158 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [c7e46d9c] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c7e46d9c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [c7e46d9c] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [36fa1fa7] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [36fa1fa7] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [36fa1fa7] 	c6ac0f37dceabb184ecb7ab388cf00fe98ba6549	HEAD
+  INFO [36fa1fa7] Finished in 0.277 seconds with exit status 0 (successful).
+  INFO [d99d9c4e] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d99d9c4e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [d99d9c4e] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-28 16:07:11 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [1771a263] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1771a263] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [1771a263] Finished in 1.147 seconds with exit status 0 (successful).
+  INFO [0e11070a] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [0e11070a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [0e11070a] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [07d9249b] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [07d9249b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [07d9249b] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [d544bfdd] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d544bfdd] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [d544bfdd] 	c6ac0f37dceabb184ecb7ab388cf00fe98ba6549	HEAD
+  INFO [d544bfdd] Finished in 0.283 seconds with exit status 0 (successful).
+  INFO [35ddad34] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [35ddad34] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [35ddad34] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [67ca1bec] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [67ca1bec] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [67ca1bec] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [1b4de817] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1b4de817] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [1b4de817] 	9da0ce56d0ebf7f30fb0e7ce4ba120f94f748c8d
+ DEBUG [1b4de817] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [c47dafa1] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c47dafa1] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [c47dafa1] Finished in 0.168 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [1fa2da22] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [1fa2da22] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [1fa2da22] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [d695ebef] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d695ebef] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [d695ebef] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO [4304c8ed] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4304c8ed] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [4304c8ed] 	Fetching origin
+ DEBUG [4304c8ed] 	From https://github.com/makingdevs/Ienpop-website
+   9da0ce5..c6ac0f3  master     -> master
+  INFO [4304c8ed] Finished in 0.300 seconds with exit status 0 (successful).
+ DEBUG [961814ef] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [961814ef] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [961814ef] Finished in 0.184 seconds with exit status 0 (successful).
+  INFO [76160834] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170828210713 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [76160834] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170828210713 )
+  INFO [76160834] Finished in 0.177 seconds with exit status 0 (successful).
+  INFO [202c9489] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170828210713 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [202c9489] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170828210713 )
+  INFO [202c9489] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [9193c257] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9193c257] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [9193c257] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG [4d4d9a26] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4d4d9a26] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [4d4d9a26] 	c6ac0f37dceabb184ecb7ab388cf00fe98ba6549
+ DEBUG [4d4d9a26] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG [fa8b8241] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170828210713; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828210713'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [fa8b8241] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170828210713; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828210713'" 1>&2; false; fi
+ DEBUG [fa8b8241] Finished in 0.183 seconds with exit status 0 (successful).
+  INFO [2d2fdadf] Running /usr/bin/env echo "c6ac0f37dceabb184ecb7ab388cf00fe98ba6549" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [2d2fdadf] Command: cd /var/www/Ienpop-website/qa/releases/20170828210713 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "c6ac0f37dceabb184ecb7ab388cf00fe98ba6549" >> REVISION )
+  INFO [2d2fdadf] Finished in 0.170 seconds with exit status 0 (successful).
+ DEBUG [b280a685] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170828210713; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828210713'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b280a685] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170828210713; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828210713'" 1>&2; false; fi
+ DEBUG [b280a685] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG [e246a6dc] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [e246a6dc] Command: cd /var/www/Ienpop-website/qa/releases/20170828210713 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [e246a6dc] 	The Gemfile's dependencies are satisfied
+ DEBUG [e246a6dc] Finished in 0.303 seconds with exit status 0 (successful).
+  INFO [dadb284f] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170828210713 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [dadb284f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170828210713 /var/www/Ienpop-website/qa/releases/current )
+  INFO [dadb284f] Finished in 0.172 seconds with exit status 0 (successful).
+  INFO [5ca1169d] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5ca1169d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [5ca1169d] Finished in 0.149 seconds with exit status 0 (successful).
+ DEBUG [5cb60bd6] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5cb60bd6] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [5cb60bd6] 	20170828200622	20170828203117	20170828204942	20170828205105	20170828205504
+20170828210713
+ DEBUG [5cb60bd6] Finished in 0.167 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on qa-ienpop.barist.coffee
+  INFO [73175e03] Running /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170828200622 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [73175e03] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170828200622 )
+  INFO [73175e03] Finished in 0.174 seconds with exit status 0 (successful).
+ DEBUG [08aa9344] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [08aa9344] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [08aa9344] Finished in 0.145 seconds with exit status 0 (successful).
+  INFO [02bff372] Running /usr/bin/env echo "Branch master (at c6ac0f37dceabb184ecb7ab388cf00fe98ba6549) deployed as release 20170828210713 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [02bff372] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at c6ac0f37dceabb184ecb7ab388cf00fe98ba6549) deployed as release 20170828210713 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [02bff372] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-28 16:09:20 -0500 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [885f3945] Running [ -d $HOME/.rbenv/versions/2.4.0 ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [885f3945] Command: [ -d $HOME/.rbenv/versions/2.4.0 ]
+ DEBUG [885f3945] Finished in 1.055 seconds with exit status 0 (successful).
+  INFO [d1582560] Running /usr/bin/env mkdir -p /tmp as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d1582560] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /tmp )
+  INFO [d1582560] Finished in 0.138 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh 100.0%
+  INFO [5762a53b] Running /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [5762a53b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env chmod 700 /tmp/git-ssh-Ienpop-website-qa-Vanessa.sh )
+  INFO [5762a53b] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [712a8a03] Running /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [712a8a03] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git ls-remote https://github.com/makingdevs/Ienpop-website HEAD )
+ DEBUG [712a8a03] 	c8e99bb8db882decbed8aead49f195b13130c86b	HEAD
+  INFO [712a8a03] Finished in 0.304 seconds with exit status 0 (successful).
+  INFO [c1751863] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [c1751863] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/shared /var/www/Ienpop-website/qa/releases )
+  INFO [c1751863] Finished in 0.327 seconds with exit status 0 (successful).
+ DEBUG [48fb2b23] Running [ -f /var/www/Ienpop-website/qa/current/REVISION ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [48fb2b23] Command: [ -f /var/www/Ienpop-website/qa/current/REVISION ]
+ DEBUG [48fb2b23] Finished in 0.171 seconds with exit status 0 (successful).
+ DEBUG [743a3577] Running /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [743a3577] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env cat /var/www/Ienpop-website/qa/current/REVISION 2>/dev/null )
+ DEBUG [743a3577] 	c6ac0f37dceabb184ecb7ab388cf00fe98ba6549
+ DEBUG [743a3577] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG [3bb6da07] Running [ -f /var/www/Ienpop-website/qa/repo/HEAD ] as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3bb6da07] Command: [ -f /var/www/Ienpop-website/qa/repo/HEAD ]
+ DEBUG [3bb6da07] Finished in 0.159 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Ienpop-website/qa/repo
+ DEBUG [edf5d2ab] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [edf5d2ab] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [edf5d2ab] Finished in 0.325 seconds with exit status 0 (successful).
+  INFO [ead2f80d] Running /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ead2f80d] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote set-url origin https://github.com/makingdevs/Ienpop-website )
+  INFO [ead2f80d] Finished in 0.283 seconds with exit status 0 (successful).
+  INFO [88089029] Running /usr/bin/env git remote update --prune as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [88089029] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [88089029] 	Fetching origin
+ DEBUG [88089029] 	From https://github.com/makingdevs/Ienpop-website
+   c6ac0f3..c8e99bb  master     -> master
+  INFO [88089029] Finished in 0.415 seconds with exit status 0 (successful).
+ DEBUG [cb414371] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [cb414371] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [cb414371] Finished in 0.182 seconds with exit status 0 (successful).
+  INFO [027af3d3] Running /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170828210923 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [027af3d3] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env mkdir -p /var/www/Ienpop-website/qa/releases/20170828210923 )
+  INFO [027af3d3] Finished in 0.216 seconds with exit status 0 (successful).
+  INFO [9e990238] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170828210923 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [9e990238] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/Ienpop-website/qa/releases/20170828210923 )
+  INFO [9e990238] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG [b35fb9ed] Running if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [b35fb9ed] Command: if test ! -d /var/www/Ienpop-website/qa/repo; then echo "Directory does not exist '/var/www/Ienpop-website/qa/repo'" 1>&2; false; fi
+ DEBUG [b35fb9ed] Finished in 0.170 seconds with exit status 0 (successful).
+ DEBUG [d2310841] Running /usr/bin/env git rev-list --max-count=1 master as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d2310841] Command: cd /var/www/Ienpop-website/qa/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Ienpop-website-qa-Vanessa.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [d2310841] 	c8e99bb8db882decbed8aead49f195b13130c86b
+ DEBUG [d2310841] Finished in 0.148 seconds with exit status 0 (successful).
+ DEBUG [44e91b8f] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170828210923; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828210923'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [44e91b8f] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170828210923; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828210923'" 1>&2; false; fi
+ DEBUG [44e91b8f] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [3859ff47] Running /usr/bin/env echo "c8e99bb8db882decbed8aead49f195b13130c86b" >> REVISION as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [3859ff47] Command: cd /var/www/Ienpop-website/qa/releases/20170828210923 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "c8e99bb8db882decbed8aead49f195b13130c86b" >> REVISION )
+  INFO [3859ff47] Finished in 0.157 seconds with exit status 0 (successful).
+ DEBUG [6e17f419] Running if test ! -d /var/www/Ienpop-website/qa/releases/20170828210923; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828210923'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [6e17f419] Command: if test ! -d /var/www/Ienpop-website/qa/releases/20170828210923; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases/20170828210923'" 1>&2; false; fi
+ DEBUG [6e17f419] Finished in 0.159 seconds with exit status 0 (successful).
+ DEBUG [d8a085b3] Running $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [d8a085b3] Command: cd /var/www/Ienpop-website/qa/releases/20170828210923 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; $HOME/.rbenv/bin/rbenv exec bundle check --path /var/www/Ienpop-website/qa/shared/bundle )
+ DEBUG [d8a085b3] 	The Gemfile's dependencies are satisfied
+ DEBUG [d8a085b3] Finished in 0.319 seconds with exit status 0 (successful).
+  INFO [84e2509b] Running /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170828210923 /var/www/Ienpop-website/qa/releases/current as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [84e2509b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ln -s /var/www/Ienpop-website/qa/releases/20170828210923 /var/www/Ienpop-website/qa/releases/current )
+  INFO [84e2509b] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [a007ee01] Running /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [a007ee01] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env mv /var/www/Ienpop-website/qa/releases/current /var/www/Ienpop-website/qa )
+  INFO [a007ee01] Finished in 0.141 seconds with exit status 0 (successful).
+ DEBUG [4bf2e956] Running /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [4bf2e956] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env ls -x /var/www/Ienpop-website/qa/releases )
+ DEBUG [4bf2e956] 	20170828203117	20170828204942	20170828205105	20170828205504	20170828210713
+20170828210923
+ DEBUG [4bf2e956] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on qa-ienpop.barist.coffee
+  INFO [356b9ecf] Running /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170828203117 as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [356b9ecf] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env rm -rf /var/www/Ienpop-website/qa/releases/20170828203117 )
+  INFO [356b9ecf] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG [ebf20380] Running if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [ebf20380] Command: if test ! -d /var/www/Ienpop-website/qa/releases; then echo "Directory does not exist '/var/www/Ienpop-website/qa/releases'" 1>&2; false; fi
+ DEBUG [ebf20380] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [de344151] Running /usr/bin/env echo "Branch master (at c8e99bb8db882decbed8aead49f195b13130c86b) deployed as release 20170828210923 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log as ec2-user@qa-ienpop.barist.coffee
+ DEBUG [de344151] Command: cd /var/www/Ienpop-website/qa/releases && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.4.0" ; /usr/bin/env echo "Branch master (at c8e99bb8db882decbed8aead49f195b13130c86b) deployed as release 20170828210923 by Vanessa" >> /var/www/Ienpop-website/qa/revisions.log )
+  INFO [de344151] Finished in 0.154 seconds with exit status 0 (successful).

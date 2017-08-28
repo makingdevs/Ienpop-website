@@ -32,6 +32,36 @@ class IENPOP < Sinatra::Base
   get '/contact' do
     erb :contact
   end
+
+  get '/sedes' do 
+    erb :sedes
+  end
+ 
+  get '/libreta_int_lib' do
+    erb :"courses/libreta_int_lib" 
+  end
+  
+  get '/libreta_int_cer' do
+    erb :"courses/libreta_int_cer"
+  end
+  
+  get '/turistico_lib' do
+    erb :"courses/turistico_lib"
+  end
+  
+  get '/turistico_cer' do 
+    erb :"courses/turistico_cer"
+  end
+  get '/pezcadores_lib' do
+    erb :"courses/pezcadores_lib"
+  end
+  
+  get '/pezcadores_cer' do 
+    erb :"courses/pezcadores_cer"
+  end
+  get '/plataformas_barcasas' do
+    erb :"courses/plataformas_barcasas"
+  end
 end
 
 if __FILE__ == $0
