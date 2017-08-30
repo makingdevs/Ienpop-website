@@ -8,12 +8,13 @@ class Connection
       :port => dbport,
       :username => dbuser,
       :database => dbname,
-      :password => dbpass
+      :password => dbpass,
+      :encoding => 'utf8'
     )
   end
 
   def executeQuery(stmt)
-    @results = @client.query(stmt)
+    @client.query(stmt)
   end
 
 end
