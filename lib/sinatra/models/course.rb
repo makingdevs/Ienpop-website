@@ -1,4 +1,3 @@
-require 'sinatra'
 class Course
   attr_accessor :active
   attr_accessor :duration
