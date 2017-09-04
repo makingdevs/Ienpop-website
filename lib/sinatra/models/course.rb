@@ -3,6 +3,7 @@ class Course
   attr_accessor :duration
   attr_accessor :name
   attr_accessor :notebook
+  attr_accessor :description
 
   @id
   @version
