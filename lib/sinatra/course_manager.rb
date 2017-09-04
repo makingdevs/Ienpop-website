@@ -23,10 +23,11 @@ class CourseManager
 
   def showCoursesNotebookA
     courses = []
-    @conn.execute_query("Select * from curso where libreta='A' and activo=1").each do |row|
+    @conn.execute_query("Select duracion, nombre, description from curso where libreta='A' and activo=1").each do |row|
       course = Course.new
       course.duration = row['duracion'],
       course.name = row['nombre'],
+      course.description = row['description']
       courses << course
     end
     courses
@@ -34,10 +35,11 @@ class CourseManager
 
   def showCoursesNotebookB
    courses = []
-    @conn.execute_query("Select duracion, nombre  from curso where libreta='B' and activo=1").each do |row|
+    @conn.execute_query("Select duracion, nombre, description  from curso where libreta='B' and activo=1").each do |row|
       course = Course.new
       course.duration = row['duracion'],
-      course.name = row['nombre']
+      course.name = row['nombre'],
+      course.description = row['description']
       courses << course
     end
     courses
@@ -45,10 +47,11 @@ class CourseManager
 
   def showCoursesNotebookC
     courses = []
-    @conn.execute_query("Select duracion, nombre  from curso where libreta='C' and activo=1").each do |row|
+    @conn.execute_query("Select duracion, nombre, description  from curso where libreta='C' and activo=1").each do |row|
       course = Course.new
       course.duration = row['duracion'],
-      course.name = row['nombre']
+      course.name = row['nombre'],
+      course.description = row['description']
       courses << course
     end
     courses
@@ -56,10 +59,11 @@ class CourseManager
 
   def showCoursesNotebookD
     courses = []
-    @conn.execute_query("Select duracion, nombre  from curso where libreta='D' and activo=1").each do |row|
+    @conn.execute_query("Select duracion, nombre, description from curso where libreta='D' and activo =  1").each do |row|
       course = Course.new
       course.duration = row['duracion'],
-      course.name = row['nombre']
+      course.name = row['nombre'],
+      course.description = row['description']
       courses << course
     end
     courses
