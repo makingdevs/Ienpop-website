@@ -1,5 +1,5 @@
 require 'sinatra'
-require './lib/sinatra/course_manager'
+require './lib/ienpop/course_manager'
 
 class IENPOP < Sinatra::Base
 

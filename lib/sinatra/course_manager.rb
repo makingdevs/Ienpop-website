@@ -1,7 +1,7 @@
 require 'mysql2'
 require 'sinatra'
-require './lib/sinatra/db_manager'
-require './lib/sinatra/models/course'
+require './lib/ienpop/db_manager'
+require './lib/ienpop/models/course'
 
 class CourseManager
 
