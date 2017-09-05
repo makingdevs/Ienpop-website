@@ -1,37 +1,26 @@
-<!-- ============================================================= SECTION – PRODUCT ============================================================= -->
-			
-			<section id="product">
-				<div class="container">
-					
-					<div class="row">
-						
-						<div class="col-sm-6 inner-right-xs text-right">
-							<figure><a href="#modal-product01" data-toggle="modal"><img src="third-party/reen-theme/assets/images/art/product01.jpg" alt=""></a></figure>
-						</div><!-- /.col -->
-						
-						<div class="col-sm-6 inner-top-xs inner-left-xs">
-							<h2>Fully flexible user interface</h2>
-							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam. Eumenis et consent accullignis dentibea autem inisita posae volor conecus resto explabo.</p>
-							<a href="#modal-product01" class="txt-btn" data-toggle="modal">Check out the functions</a>
-						</div><!-- /.col -->
-						
-					</div><!-- /.row -->
-					
-					<div class="row inner-top-md">
-						
-						<div class="col-sm-6 inner-right-xs text-right">
-							<figure><a href="#modal-product01" data-toggle="modal"><img src="third-party/reen-theme/assets/images/art/product03.jpg" alt=""></a></figure>
-						</div><!-- /.col -->
-						
-						<div class="col-sm-6 inner-top-xs inner-left-xs">
-							<h2>Social media made even easier</h2>
-							<p>Magnis modipsae que lib voloratati andigen daepeditem quiate ut reporemni aut labor. Laceaque quiae sitiorem rest non restibusaes es tumquam core posae volor remped modis volor. Doloreiur qui commolu ptatemp dolupta oreprerum tibusam emnis et consent accullignis.</p>
-							<a href="#modal-product01" class="txt-btn" data-toggle="modal">Learn more about it</a>
-						</div><!-- /.col -->
-						
-					</div><!-- /.row -->
-				
-				</div><!-- /.container -->
-			</section>
-			
-			<!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
+<!-- *************************** LIBRETA CERTIFICACIONES ************** --->
+<section id="product">
+  <div class="container">
+
+    <%  @courses.each do |c| %>
+    <div class="row">
+      <div class="col-sm-6 inner-right-xs text-right">
+        <figure><a href="#modal-product01" data-toggle="modal"><img src="third-party/reen-theme/assets/images/art/product01.jpg" alt=""></a></figure>
+      </div><!-- /.col -->
+
+      <div class="col-sm-6 inner-top-xs inner-left-xs">
+        <h2><%= c.name  %></h2>
+        <% des = c.description.to_s %>
+        <% values = des.split(/\r\n/) %>
+        <p> <%=values[0] %></p>
+      </div><!-- /.col -->
+
+      </div><!-- /.row -->
+    <%
+    end
+     %>.
+
+  </div><!-- /.container -->
+</section>
+
+<!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
