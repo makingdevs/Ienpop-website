@@ -11,7 +11,13 @@ class CourseManager
 
   def list
     courses = []
-    @conn.execute_query("Select * from curso").each do |row|
+
+    current_page = 1
+    per_page = 10
+    records_fetch_point = (current_page - 1) * per_page
+    query = "select * from curso  where libreta = 'A' and activo = 1 limit #{per_page} offset #{records_fetch_point}"
+
+    @conn.execute_query(query).each do |row|
       course = Course.new
       course.active = row['clave'],
       course.duration = row['duracion'],
@@ -23,7 +29,12 @@ class CourseManager
 
   def showCoursesNotebookA
     courses = []
-    @conn.execute_query("Select duracion, nombre, description from curso where libreta='A' and activo=1").each do |row|
+
+    current_page = 1
+    per_page = 10
+    records_fetch_point = (current_page - 1) * per_page
+
+    @conn.execute_query("select * from curso  where libreta = 'A' and activo = 1 limit #{per_page} offset #{records_fetch_point}").each do |row|
       course = Course.new
       course.duration = row['duracion'],
       course.name = row['nombre'],
@@ -68,6 +79,11 @@ class CourseManager
     end
     courses
   end
+
+  def countCoursesNotebookA
+     num = @conn.execute_query("select COUNT(*) from curso where libreta = 'A' and activo = 1")
+  end
+
 
 end
 
