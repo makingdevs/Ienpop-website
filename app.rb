@@ -3,7 +3,7 @@ require './lib/sinatra/course_manager'
 
 class IENPOP < Sinatra::Base
 
-  c = CourseManager.new
+  course_manager = CourseManager.new
   get '/frank-says' do
     'Put this in your pipe & smoke it!'
   end
@@ -41,11 +41,12 @@ class IENPOP < Sinatra::Base
   end
 
   get '/libreta_int_lib' do
+    @courses =  course_manager.showCoursesNotebookA
     erb :"courses/libreta_int_lib"
   end
 
   get '/libreta_int_cer' do
-    @courses = c.showCoursesNotebookA
+    @courses =  course_manager.showCoursesNotebookA
     puts @courses
     erb :"courses/libreta_int_cer"
   end
