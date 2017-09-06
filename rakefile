@@ -2,5 +2,6 @@ task default: %w[runapp]
 
 desc "Run the app"
 task :runapp do
-  sh "rackup"
+  sh "puma"
 end
+
