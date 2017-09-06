@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/seuros/capistrano-puma.git
+  revision: 220e81c460e6a3804b1f28b1f98f7616b720417a
+  specs:
+    capistrano3-puma (3.1.1)
+      capistrano (~> 3.7)
+      capistrano-bundler
+      puma (~> 3.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,6 +63,7 @@ DEPENDENCIES
   capistrano-bundler (~> 1.2)
   capistrano-passenger
   capistrano-rbenv (~> 2.0)
+  capistrano3-puma!
   mysql2
   puma (~> 3.10.0)
   rake (~> 12.0)
