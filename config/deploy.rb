@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock "3.9.0"
 
-set :application, "Ienpop-website"
+set :application, "ienpop-website"
 set :repo_url, "https://github.com/makingdevs/Ienpop-website"
 set :rbenv_ruby, '2.4.0'
 
