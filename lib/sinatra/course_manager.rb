@@ -7,6 +7,7 @@ class CourseManager
 
   def initialize
     @conn = DBManager.new
+    @limit = 10
   end
 
   def list
@@ -27,25 +28,23 @@ class CourseManager
     courses
   end
 
-  def showCoursesNotebookA
+  def list_courses_notebook_a
     courses = []
-
-    current_page = 1
-    per_page = 10
-    records_fetch_point = (current_page - 1) * per_page
-
-    @conn.execute_query("select * from curso  where libreta = 'A' and activo = 1 limit #{per_page} offset #{records_fetch_point}").each do |row|
+    count = count_courses_notebook_a
+    number_pages = calculate_number_pages(count)
+    offset = calculate_offset(1)
+    @conn.execute_query("select * from curso  where libreta = 'A' and activo = 1 limit #{@limit} offset #{offset}").each do |row|
       course = Course.new
       course.duration = row['duracion'],
       course.name = row['nombre'],
       course.description = row['description']
-      courses << course
+     courses << course
     end
     courses
   end
 
-  def showCoursesNotebookB
-   courses = []
+  def list_courses_notebook_b
+    courses = []
     @conn.execute_query("Select duracion, nombre, description  from curso where libreta='B' and activo=1").each do |row|
       course = Course.new
       course.duration = row['duracion'],
@@ -56,7 +55,7 @@ class CourseManager
     courses
   end
 
-  def showCoursesNotebookC
+  def list_courses_notebook_c
     courses = []
     @conn.execute_query("Select duracion, nombre, description  from curso where libreta='C' and activo=1").each do |row|
       course = Course.new
@@ -68,7 +67,7 @@ class CourseManager
     courses
   end
 
-  def showCoursesNotebookD
+  def list_courses_notebook_d
     courses = []
     @conn.execute_query("Select duracion, nombre, description from curso where libreta='D' and activo =  1").each do |row|
       course = Course.new
@@ -80,12 +79,23 @@ class CourseManager
     courses
   end
 
-  def countCoursesNotebookA
-     num = @conn.execute_query("select COUNT(*) from curso where libreta = 'A' and activo = 1")
+  def count_courses_notebook_a
+     num = @conn.execute_query("select COUNT(*) c from curso where libreta = 'A' and activo = 1")
+     num.first["c"]
+  end
+
+  def calculate_number_pages(number_count)
+     pages = (number_count/@limit) + 1
+  end
+
+  def calculate_offset(page)
+    offset = page * @limit
+  end
+
   end
 
 
-end
+
 
 
 
