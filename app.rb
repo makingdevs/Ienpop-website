@@ -41,12 +41,12 @@ class IENPOP < Sinatra::Base
   end
 
   get '/libreta_int_lib' do
-    @courses =  course_manager.showCoursesNotebookA
+    @courses =  course_manager.list_courses_notebook_a
     erb :"courses/libreta_int_lib"
   end
 
   get '/libreta_int_cer' do
-    @courses =  course_manager.showCoursesNotebookA
+    @courses =  course_manager.list_courses_notebook_a
     puts @courses
     erb :"courses/libreta_int_cer"
   end
