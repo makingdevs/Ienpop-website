@@ -64,10 +64,11 @@ class IENPOP < Sinatra::Base
     erb :"courses/turistico_cer"
   end
   get '/pescadores_lib' do
+    @courses =  course_manager.list_courses_notebook_b
     erb :"courses/pescadores_lib"
   end
-
   get '/pescadores_cer' do
+    @courses =  course_manager.list_courses_notebook_b
     erb :"courses/pescadores_cer"
   end
 
