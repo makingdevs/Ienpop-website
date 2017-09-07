@@ -57,6 +57,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/turistico_lib' do
+    @courses = course_manager.list_courses_notebook_c
     erb :"courses/turistico_lib"
   end
 
@@ -74,6 +75,7 @@ class IENPOP < Sinatra::Base
 
   get '/plataformas_barcasas' do
     erb :"courses/plataformas_barcasas"
+    @courses = course_manager.list_courses_notebook_d
   end
 end
 
