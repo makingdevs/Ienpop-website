@@ -43,7 +43,7 @@ class IENPOP < Sinatra::Base
   get '/libreta_int_lib' do
     limit = params['limit'] || 10
     page = params['page'] || 0
-    count = course_manager.count_courses_notebook_a
+    count = course_manager.count_courses_notebook('A')
     @number_pages = (count / limit.to_i) + 1
     offset = page.to_i * limit.to_i
     @courses =  course_manager.list_courses_notebook_a(limit, offset)
