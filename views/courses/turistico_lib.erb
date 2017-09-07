@@ -1,0 +1,26 @@
+<!-- *************************** LIBRETA B LIBRETA ************** --->
+<section id="product">
+  <div class="container">
+
+    <%  @courses.each do |c| %>
+    <div class="row">
+      <div class="col-sm-6 inner-right-xs text-right">
+        <figure><a href="#modal-product01" data-toggle="modal"><img src="third-party/reen-theme/assets/images/art/product01.jpg" alt=""></a></figure>
+      </div><!-- /.col -->
+
+      <div class="col-sm-6 inner-top-xs inner-left-xs">
+        <h2><%= c.name  %></h2>
+        <% des = c.description.to_s %>
+        <% values = des.split(/\r\n/) %>
+        <p> <%=values[0] %></p>
+      </div><!-- /.col -->
+
+      </div><!-- /.row -->
+    <%
+    end
+     %>.
+
+  </div><!-- /.container -->
+</section>
+
+<!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
