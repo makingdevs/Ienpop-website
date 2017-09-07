@@ -64,10 +64,17 @@ class IENPOP < Sinatra::Base
   get '/turistico_cer' do
     erb :"courses/turistico_cer"
   end
+
   get '/pescadores_lib' do
-    @courses =  course_manager.list_courses_notebook_b
+    limit = params['limit'] || 10
+    page = params['page'] || 0
+    count = course_manager.count_courses_notebook('B')
+    @number_pages = (count / limit.to_i) + 1
+    offset = page.to_i * limit.to_i
+    @courses =  course_manager.list_courses_notebook_b(limit, offset)
     erb :"courses/pescadores_lib"
   end
+
   get '/pescadores_cer' do
     @courses =  course_manager.list_courses_notebook_b
     erb :"courses/pescadores_cer"
