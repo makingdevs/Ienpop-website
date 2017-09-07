@@ -63,13 +63,14 @@ class IENPOP < Sinatra::Base
   get '/turistico_cer' do
     erb :"courses/turistico_cer"
   end
-  get '/pezcadores_lib' do
-    erb :"courses/pezcadores_lib"
+  get '/pescadores_lib' do
+    erb :"courses/pescadores_lib"
   end
 
-  get '/pezcadores_cer' do
-    erb :"courses/pezcadores_cer"
+  get '/pescadores_cer' do
+    erb :"courses/pescadores_cer"
   end
+
   get '/plataformas_barcasas' do
     erb :"courses/plataformas_barcasas"
   end
@@ -78,3 +79,5 @@ end
 if __FILE__ == $0
     IENPOP.run!
 end
+
+
