@@ -75,8 +75,8 @@ class CourseManager
     courses
   end
 
-  def count_courses_notebook_a
-     num = @conn.execute_query("select COUNT(*) c from curso where libreta = 'A' and activo = 1")
+  def count_courses_notebook(lib)
+     num = @conn.execute_query("select COUNT(*) c from curso where libreta = '#{lib}' and activo = 1")
      num.first["c"]
   end
 
