@@ -73,6 +73,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/plataformas_barcasas' do
+    @courses =  course_manager.list_courses_notebook_d
     erb :"courses/plataformas_barcasas"
   end
 end
