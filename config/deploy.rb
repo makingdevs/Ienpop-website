@@ -13,7 +13,7 @@ set :deploy_to, "/var/www/#{fetch(:application)}/qa"
 
 set :puma_user, fetch(:user)
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
-# set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
+set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
