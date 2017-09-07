@@ -7,7 +7,6 @@ class CourseManager
 
   def initialize
     @conn = DBManager.new
-    @limit = 10
   end
 
   def list
@@ -28,17 +27,14 @@ class CourseManager
     courses
   end
 
-  def list_courses_notebook_a
+  def list_courses_notebook_a(limit, offset)
     courses = []
-    count = count_courses_notebook_a
-    number_pages = calculate_number_pages(count)
-    offset = calculate_offset(1)
-    @conn.execute_query("select * from curso  where libreta = 'A' and activo = 1 limit #{@limit} offset #{offset}").each do |row|
+    @conn.execute_query("select * from curso  where libreta = 'A' and activo = 1 limit #{limit} offset #{offset}").each do |row|
       course = Course.new
       course.duration = row['duracion'],
       course.name = row['nombre'],
       course.description = row['description']
-     courses << course
+      courses << course
     end
     courses
   end
@@ -84,15 +80,7 @@ class CourseManager
      num.first["c"]
   end
 
-  def calculate_number_pages(number_count)
-     pages = (number_count/@limit) + 1
-  end
-
-  def calculate_offset(page)
-    offset = page * @limit
-  end
-
-  end
+end
 
 
 
