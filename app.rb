@@ -4,24 +4,10 @@ require './lib/ienpop/course_manager'
 class IENPOP < Sinatra::Base
 
   course_manager = CourseManager.new
-  get '/frank-says' do
-    'Put this in your pipe & smoke it!'
-  end
 
   get '/' do
     @message = params['error']
     erb :index
-  end
-
-  post '/Otra/contact/:p' do
-    puts "#{params}"
-    @saludo = "Hola "
-    @nombres = "#{params['p']} #{params['name']}"
-    if params['name'].empty?
-      redirect "/?error=esta vacio"
-    else
-      erb :Otra
-    end
   end
 
   get '/home' do
@@ -57,24 +43,51 @@ class IENPOP < Sinatra::Base
   end
 
   get '/turistico_lib' do
-    @courses = course_manager.list_courses_notebook_c
+    limit = params['limit'] || 10
+    page = params['page'] || 0
+    count = course_manager.count_courses_notebook('C')
+    if(count < limit.to_i)
+      @number_pages = 1
+    else
+      @number_pages = (count / limit.to_i) + 1
+    end
+
+    offset = page.to_i * limit.to_i
+    @courses = course_manager.list_courses_notebook_c(limit, offset)
     erb :"courses/turistico_lib"
   end
 
   get '/turistico_cer' do
     erb :"courses/turistico_cer"
   end
+
   get '/pescadores_lib' do
-    @courses =  course_manager.list_courses_notebook_b
+    limit = params['limit'] || 10
+    page = params['page'] || 0
+    count = course_manager.count_courses_notebook('B')
+    @number_pages = (count / limit.to_i) + 1
+    offset = page.to_i * limit.to_i
+    @courses =  course_manager.list_courses_notebook_b(limit, offset)
     erb :"courses/pescadores_lib"
   end
+
   get '/pescadores_cer' do
     @courses =  course_manager.list_courses_notebook_b
     erb :"courses/pescadores_cer"
   end
 
   get '/plataformas_barcasas' do
-    @courses =  course_manager.list_courses_notebook_d
+    limit = params['limit'] || 10
+    page = params['page'] || 0
+    count = course_manager.count_courses_notebook('D')
+    if(count < limit.to_i)
+      @number_pages = 1
+    else
+      @number_pages = (count / limit.to_i) + 1
+    end
+
+    offset = page.to_i * limit.to_i
+    @courses =  course_manager.list_courses_notebook_d(limit, offset)
     erb :"courses/plataformas_barcasas"
   end
 end
