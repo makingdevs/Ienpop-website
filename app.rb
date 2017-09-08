@@ -91,7 +91,17 @@ class IENPOP < Sinatra::Base
   end
 
   get '/plataformas_barcasas' do
-    @courses =  course_manager.list_courses_notebook_d
+    limit = params['limit'] || 10
+    page = params['page'] || 0
+    count = course_manager.count_courses_notebook('D')
+    if(count < limit.to_i)
+      @number_pages = 1
+    else
+      @number_pages = (count / limit.to_i) + 1
+    end
+
+    offset = page.to_i * limit.to_i
+    @courses =  course_manager.list_courses_notebook_d(limit, offset)
     erb :"courses/plataformas_barcasas"
   end
 end

@@ -63,9 +63,9 @@ class CourseManager
     courses
   end
 
-  def list_courses_notebook_d
+  def list_courses_notebook_d(limit, offset)
     courses = []
-    @conn.execute_query("Select duracion, nombre, description from curso where libreta='D' and activo =  1").each do |row|
+    @conn.execute_query("Select duracion, nombre, description from curso where libreta='D' and activo =  1 limit #{limit} offset #{offset}").each do |row|
       course = Course.new
       course.duration = row['duracion'],
       course.name = row['nombre'],
