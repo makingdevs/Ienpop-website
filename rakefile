@@ -1,5 +1,7 @@
 task default: %w[runapp]
 
+desc "Run the app"
 task :runapp do
-  sh "bundle exec ruby app.rb"
+  sh "puma"
 end
+

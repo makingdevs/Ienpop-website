@@ -2,8 +2,11 @@
 # ======================
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
+set :deploy_to, "/var/www/#{fetch(:application)}/qa"
+set :stage, :qa
+set :branch, "master"
 
- server "qa-ienpop.barist.coffee", user: "ec2-user", roles: %w{app web}
+server "ienpop-qa.makingdevs.com", user: "ec2-user", roles: %w{app web}
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 

@@ -20,6 +20,17 @@
     end
      %>.
 
+     <div class="col-md-offset-5">
+       <nav aria-label="Page navigation">
+       <ul class="pagination pagination-lg">
+         <% @number_pages.times { |a|  %>
+           <li><a href="/turistico_lib?limit=10&page=<%=a%>"><%= a + 1  %></a></li>
+         <% } %>
+       </ul>
+       </nav>
+     </div>
+
+
   </div><!-- /.container -->
 </section>
 
