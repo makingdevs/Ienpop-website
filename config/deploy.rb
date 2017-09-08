@@ -19,4 +19,4 @@ namespace :bower do
 
 end
 
-after "deploy:check:make_linked_dirs", "bower:install"
+after "deploy:symlink:linked_dirs", "bower:install"
