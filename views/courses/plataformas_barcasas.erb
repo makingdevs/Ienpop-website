@@ -1,4 +1,4 @@
-<!-- *************************** LIBRETA B LIBRETA ************** --->
+<!-- *************************** LIBRETA D LIBRETA ************** --->
 <section id="product">
   <div class="container">
 
@@ -20,17 +20,22 @@
     end
      %>.
 
-     <div class="col-md-offset-5">
-       <nav aria-label="Page navigation">
-          <ul class="pagination pagination-lg">
-            <% @number_pages.times { |a|  %>
-              <li><a href="/plataformas_barcasas?limit=10&page=<%=a%>"><%= a + 1  %></a></li>
-            <% } %>
-          </ul>
-          </nav>
-        </div>
+     <% if(@flag_show_pagination == false) %>
+        <%  puts @number_pages %>
+     <% else %>
+       <div class="col-md-offset-5">
+         <nav aria-label="Page navigation">
+         <ul class="pagination pagination-lg">
+           <% @number_pages.times { |a|  %>
+             <li><a href="/plataformas_barcasas?limit=10&page=<%=a%>"><%= a + 1  %></a></li>
+           <% } %>
+         </ul>
+         </nav>
+       </div>
+     </div><!-- /.container -->
+    <% end %>
 
-  </div><!-- /.container -->
+
 </section>
 
 <!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
