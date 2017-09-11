@@ -96,7 +96,19 @@ class IENPOP < Sinatra::Base
   end
 
   get '/pescadores_cer' do
-    @courses =  course_manager.list_courses_notebook_certification_b
+    limit = params['limit'] || 10
+    page = params['page'] || 0
+    count = course_manager.count_courses_certification_courses('B')
+    puts count
+    if(count <= limit.to_i)
+      @flag_show_pagination = false
+      @number_pages = 0
+    else
+      @flag_show_pagination = true
+      @number_pages = (count / limit.to_i) + 1
+    end
+    offset = page.to_i * limit.to_i
+    @courses =  course_manager.list_courses_notebook_certification_b(limit, offset)
     erb :"courses/pescadores_cer"
   end
 
