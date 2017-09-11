@@ -85,7 +85,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/pescadores_cer' do
-    @courses =  course_manager.list_courses_notebook_b
+    @courses =  course_manager.list_courses_notebook_certification_b
     erb :"courses/pescadores_cer"
   end
 
