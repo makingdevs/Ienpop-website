@@ -80,6 +80,20 @@ class CourseManager
      num.first["c"]
   end
 
+  def list_courses_notebook_certifiction_a
+  courses = []
+    @conn.execute_query("select * from curso where libreta = 'A' and activo = 1 and (nombre like '%patron%' or nombre like '%capitan%' or nombre like '%motorista%') ").each do |row|
+      course = Course.new
+      course.duration = row['duracion'],
+      course.name = row['nombre'],
+      course.description = row['description']
+      courses << course
+    end
+    courses
+
+  end
+
+
 end
 
 
