@@ -9,63 +9,9 @@ class CourseManager
     @conn = DBManager.new
   end
 
-  def list
+  def list_courses_notebook(limit, offset, notebook)
     courses = []
-
-    current_page = 1
-    per_page = 10
-    records_fetch_point = (current_page - 1) * per_page
-    query = "select * from curso  where libreta = 'A' and activo = 1 limit #{per_page} offset #{records_fetch_point}"
-
-    @conn.execute_query(query).each do |row|
-      course = Course.new
-      course.active = row['clave'],
-      course.duration = row['duracion'],
-      course.name = row['nombre']
-      courses << course
-   end
-    courses
-  end
-
-  def list_courses_notebook_a(limit, offset)
-    courses = []
-    @conn.execute_query("select * from curso  where libreta = 'A' and activo = 1 and (nombre not  like '%patron%' and nombre not like '%capitan%' and nombre not like '%motorista%') limit #{limit} offset #{offset}").each do |row|
-      course = Course.new
-      course.duration = row['duracion'],
-      course.name = row['nombre'],
-      course.description = row['description']
-      courses << course
-    end
-    courses
-  end
-
-  def list_courses_notebook_b(limit, offset)
-    courses = []
-    @conn.execute_query("Select duracion, nombre, description  from curso where libreta='B' and activo=1 and (nombre not  like '%patron%' and nombre not like '%capitan%' and nombre not like '%motorista%') limit #{limit} offset #{offset}").each do |row|
-      course = Course.new
-      course.duration = row['duracion'],
-      course.name = row['nombre'],
-      course.description = row['description']
-      courses << course
-    end
-    courses
-  end
-
-  def list_courses_notebook_c(limit, offset)
-    courses = []
-    @conn.execute_query("Select duracion, nombre, description  from curso where libreta='C' and activo=1 and (nombre not  like '%patron%' and nombre not like '%capitan%'  and nombre not like '%motorista%') limit #{limit} offset #{offset}").each do |row|
-      course = Course.new
-      course.duration = row['duracion'],
-      course.name = row['nombre'],
-      course.description = row['description']
-      courses << course
-    end
-    courses
-  end
-
-  def list_courses_notebook_d(limit, offset)
-    courses = []
-    @conn.execute_query("Select duracion, nombre, description from curso where libreta='D' and activo =  1 limit #{limit} offset #{offset}").each do |row|
+    @conn.execute_query("Select duracion, nombre, description  from curso where libreta='#{notebook}' and activo=1 and (nombre not  like '%patron%' and nombre not like '%capitan%'  and nombre not like '%motorista%') limit #{limit} offset #{offset}").each do |row|
       course = Course.new
       course.duration = row['duracion'],
       course.name = row['nombre'],
@@ -85,31 +31,8 @@ class CourseManager
     num.first["c"]
   end
 
-  def list_courses_notebook_certifiction_a(limit, offset)
-  courses = []
-    @conn.execute_query("select * from curso where libreta = 'A' and activo = 1 and (nombre like '%patron%' or nombre like '%capitan%' or nombre like '%motorista%') limit #{limit} offset #{offset} ").each do |row|
-      course = Course.new
-      course.duration = row['duracion'],
-      course.name = row['nombre'],
-      course.description = row['description']
-      courses << course
-    end
-    courses
-  end
 
-  def list_courses_notebook_certification_b(limit, offset)
-    courses = []
-    @conn.execute_query("Select duracion, nombre, description  from curso where libreta = 'B' and activo = 1 and (nombre like '%patron%' or nombre like '%capitan%' or nombre like '%motorista%') limit #{limit} offset #{offset} ").each do |row|
-      course = Course.new
-      course.duration = row['duracion'],
-      course.name = row['nombre'],
-      course.description = row['description']
-      courses << course
-    end
-    courses
-  end
-
-    def list_course_notebook_certification(limit, offset, notebook)
+  def list_course_notebook_certification(limit, offset, notebook)
     courses = []
     @conn.execute_query("Select duracion, nombre, description  from curso where libreta = '#{notebook}' and activo = 1 and (nombre like '%patron%' or nombre like '%capitan%' or nombre like '%motorista%') limit #{limit} offset #{offset}").each do |row|
       course = Course.new
