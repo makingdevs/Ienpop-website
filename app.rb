@@ -30,7 +30,7 @@ class IENPOP < Sinatra::Base
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = course_manager.count_courses_notebook('A')
-    if(count < limit.to_i)
+    if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
     else
@@ -46,7 +46,7 @@ class IENPOP < Sinatra::Base
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = course_manager.count_courses_certification_courses('A')
-    if(count < limit.to_i)
+    if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
     else
@@ -62,7 +62,7 @@ class IENPOP < Sinatra::Base
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = course_manager.count_courses_notebook('C')
-    if(count < limit.to_i)
+    if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
     else
@@ -94,7 +94,7 @@ class IENPOP < Sinatra::Base
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = course_manager.count_courses_notebook('B')
-    if(count < limit.to_i)
+    if(count <=  limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
     else
@@ -110,7 +110,6 @@ class IENPOP < Sinatra::Base
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = course_manager.count_courses_certification_courses('B')
-    puts count
     if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
@@ -127,7 +126,7 @@ class IENPOP < Sinatra::Base
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = course_manager.count_courses_notebook('D')
-    if(count < limit.to_i)
+    if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
     else
