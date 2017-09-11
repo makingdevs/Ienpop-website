@@ -30,7 +30,13 @@ class IENPOP < Sinatra::Base
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = course_manager.count_courses_notebook('A')
-    @number_pages = (count / limit.to_i) + 1
+    if(count < limit.to_i)
+      @flag_show_pagination = false
+      @number_pages = 0
+    else
+      @flag_show_pagination = true
+      @number_pages = (count / limit.to_i) + 1
+    end
     offset = page.to_i * limit.to_i
     @courses =  course_manager.list_courses_notebook_a(limit, offset)
     erb :"courses/libreta_int_lib"
@@ -47,11 +53,12 @@ class IENPOP < Sinatra::Base
     page = params['page'] || 0
     count = course_manager.count_courses_notebook('C')
     if(count < limit.to_i)
-      @number_pages = 1
+      @flag_show_pagination = false
+      @number_pages = 0
     else
+      @flag_show_pagination = true
       @number_pages = (count / limit.to_i) + 1
     end
-
     offset = page.to_i * limit.to_i
     @courses = course_manager.list_courses_notebook_c(limit, offset)
     erb :"courses/turistico_lib"
@@ -65,7 +72,13 @@ class IENPOP < Sinatra::Base
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = course_manager.count_courses_notebook('B')
-    @number_pages = (count / limit.to_i) + 1
+    if(count < limit.to_i)
+      @flag_show_pagination = false
+      @number_pages = 0
+    else
+      @flag_show_pagination = true
+      @number_pages = (count / limit.to_i) + 1
+    end
     offset = page.to_i * limit.to_i
     @courses =  course_manager.list_courses_notebook_b(limit, offset)
     erb :"courses/pescadores_lib"
@@ -81,11 +94,12 @@ class IENPOP < Sinatra::Base
     page = params['page'] || 0
     count = course_manager.count_courses_notebook('D')
     if(count < limit.to_i)
-      @number_pages = 1
+      @flag_show_pagination = false
+      @number_pages = 0
     else
+      @flag_show_pagination = true
       @number_pages = (count / limit.to_i) + 1
     end
-
     offset = page.to_i * limit.to_i
     @courses =  course_manager.list_courses_notebook_d(limit, offset)
     erb :"courses/plataformas_barcasas"
