@@ -41,7 +41,7 @@ class CourseManager
 
   def list_courses_notebook_b(limit, offset)
     courses = []
-    @conn.execute_query("Select duracion, nombre, description  from curso where libreta='B' and activo=1 limit #{limit} offset #{offset}").each do |row|
+    @conn.execute_query("Select duracion, nombre, description  from curso where libreta='B' and activo=1 and (nombre not  like '%patron%' and nombre not like '%capitan%' and nombre not like '%motorista%') limit #{limit} offset #{offset}").each do |row|
       course = Course.new
       course.duration = row['duracion'],
       course.name = row['nombre'],
