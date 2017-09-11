@@ -76,8 +76,13 @@ class CourseManager
   end
 
   def count_courses_notebook(lib)
-     num = @conn.execute_query("select COUNT(*) c from curso where libreta = '#{lib}' and activo = 1")
+     num = @conn.execute_query("select COUNT(*) c from curso where libreta = '#{lib}' and activo = 1 ")
      num.first["c"]
+  end
+
+  def count_courses_certification_courses(lib)
+    num = @conn.execute_query("select COUNT(*) c from curso where libreta = '#{lib}' and activo = 1 and (nombre like '%patron%' or nombre like '%capitan%' or nombre like '%motorista%') ")
+    num.first["c"]
   end
 
   def list_courses_notebook_certifiction_a(limit, offset)
