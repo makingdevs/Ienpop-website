@@ -20,17 +20,20 @@
     end
      %>.
 
-     <div class="col-md-offset-5">
-       <nav aria-label="Page navigation">
-          <ul class="pagination pagination-lg">
-            <% @number_pages.times { |a|  %>
-              <li><a href="/libreta_int_lib?limit=10&page=<%=a%>"><%= a + 1  %></a></li>
-            <% } %>
-          </ul>
-          </nav>
-        </div>
-
-  </div><!-- /.container -->
+    <% if(@flag_show_pagination == false) %>
+        <%  puts @number_pages %>
+     <% else %>
+       <div class="col-md-offset-5">
+         <nav aria-label="Page navigation">
+         <ul class="pagination pagination-lg">
+           <% @number_pages.times { |a|  %>
+             <li><a href="/libreta_int_lib?limit=10&page=<%=a%>"><%= a + 1  %></a></li>
+           <% } %>
+         </ul>
+         </nav>
+       </div>
+     </div><!-- /.container -->
+   <% end %>
 
 </section>
 
