@@ -65,6 +65,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/turistico_cer' do
+    @courses =  course_manager.list_course_notebook_certification_c
     erb :"courses/turistico_cer"
   end
 
