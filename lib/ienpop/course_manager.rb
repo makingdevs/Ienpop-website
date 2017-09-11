@@ -76,7 +76,7 @@ class CourseManager
   end
 
   def count_courses_notebook(lib)
-     num = @conn.execute_query("select COUNT(*) c from curso where libreta = '#{lib}' and activo = 1 ")
+     num = @conn.execute_query("select COUNT(*) c from curso where libreta = '#{lib}' and activo = 1 and (nombre not  like '%patron%'  and nombre not like '%capitan%' and nombre not like '%motorista%')")
      num.first["c"]
   end
 
