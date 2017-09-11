@@ -109,9 +109,9 @@ class CourseManager
     courses
   end
 
-  def list_course_notebook_certification_c(limit, offset)
+    def list_course_notebook_certification(limit, offset, notebook)
     courses = []
-    @conn.execute_query("Select duracion, nombre, description  from curso where libreta = 'C' and activo = 1 and (nombre like '%patron%' or nombre like '%capitan%' or nombre like '%motorista%') limit #{limit} offset #{offset}").each do |row|
+    @conn.execute_query("Select duracion, nombre, description  from curso where libreta = '#{notebook}' and activo = 1 and (nombre like '%patron%' or nombre like '%capitan%' or nombre like '%motorista%') limit #{limit} offset #{offset}").each do |row|
       course = Course.new
       course.duration = row['duracion'],
       course.name = row['nombre'],
@@ -119,6 +119,7 @@ class CourseManager
       courses << course
     end
     courses
+
   end
 
 end
