@@ -43,7 +43,18 @@ class IENPOP < Sinatra::Base
   end
 
   get '/libreta_int_cer' do
-    @courses =  course_manager.list_courses_notebook_certifiction_a
+    limit = params['limit'] || 10
+    page = params['page'] || 0
+    count = course_manager.count_courses_notebook('A')
+    if(count < limit.to_i)
+      @flag_show_pagination = false
+      @number_pages = 0
+    else
+      @flag_show_pagination = true
+      @number_pages = (count / limit.to_i) + 1
+    end
+    offset = page.to_i * limit.to_i
+    @courses =  course_manager.list_courses_notebook_certifiction_a(limit, offset)
     puts @courses
     erb :"courses/libreta_int_cer"
   end
