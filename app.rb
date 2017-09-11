@@ -54,7 +54,7 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses =  course_manager.list_courses_notebook_certifiction_a(limit, offset)
+    @courses =  course_manager.list_course_notebook_certification(limit, offset, 'A')
     erb :"courses/libreta_int_cer"
   end
 
@@ -86,7 +86,7 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses =  course_manager.list_course_notebook_certification_c(limit, offset)
+    @courses =  course_manager.list_course_notebook_certification(limit, offset, 'C')
     erb :"courses/turistico_cer"
   end
 
@@ -118,7 +118,7 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses =  course_manager.list_courses_notebook_certification_b(limit, offset)
+    @courses =  course_manager.list_course_notebook_certification(limit, offset, 'B')
     erb :"courses/pescadores_cer"
   end
 
