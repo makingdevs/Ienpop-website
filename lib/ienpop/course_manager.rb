@@ -81,7 +81,7 @@ class CourseManager
   end
 
   def count_courses_certification_courses(lib)
-    num = @conn.execute_query("select COUNT(*) c from curso where libreta = '#{lib}' and activo = 1 and (nombre like '%patron%' or nombre like '%capitan%' or nombre like '%motorista%') ")
+    num = @conn.execute_query("select COUNT(*) c from curso where libreta = '#{lib}' and activo = 1 and (nombre like '%patron%' or nombre like '%capitan%' or nombre like '%motorista%')")
     num.first["c"]
   end
 
