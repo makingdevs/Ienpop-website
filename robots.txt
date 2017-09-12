@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /views/
+Disallow: /lib/
+Disallow: /log/
+Disallow: /config
+Disallow: /public/
