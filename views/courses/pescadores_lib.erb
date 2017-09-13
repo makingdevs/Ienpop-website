@@ -1,9 +1,9 @@
-<!-- *************************** LIBRETA B LIBRETA ************** -->
+<!-- *************************** LIBRETA B CERTIFICACIONES ************** -->
 <section id="product" class="dark-bg">
   <div class="container">
 
     <%  @courses.each do |c| %>
-        <div class="row">
+    <div class="row">
           <div class="col-md-8 col-sm-9 innercursos center-block text-center">
               <header>
                 <h1><%= c.name  %></h1>
@@ -17,10 +17,10 @@
     end
      %>
 
-    <% if(@flag_show_pagination == false) %>
+     <% if(@flag_show_pagination == false) %>
        <%  puts @number_pages %>
      <% else %>
-       <div class="col-md-offset-5">
+       <div class="col-md-offset-5 padding-pagination">
          <nav aria-label="Page navigation">
          <ul class="pagination pagination-lg">
            <% @number_pages.times { |a|  %>
@@ -32,6 +32,7 @@
      </div><!-- /.container -->
    <% end %>
 
- </section>
+</section>
 
-<!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
+
+
