@@ -1,29 +1,26 @@
-<!-- *************************** LIBRETA B LIBRETA ************** --->
+<!-- *************************** LIBRETA B CERTIFICACIONES ************** -->
 <section id="product" class="dark-bg">
   <div class="container">
 
     <%  @courses.each do |c| %>
     <div class="row">
-      <div class="col-sm-6 inner-right-xs text-right">
-        <figure><a href="#modal-product01" data-toggle="modal"><img src="third-party/reen-theme/assets/images/art/product01.jpg" alt=""></a></figure>
-      </div><!-- /.col -->
-
-      <div class="col-sm-6 inner-top-xs inner-left-xs">
-        <h2><%= c.name  %></h2>
-        <% des = c.description.to_s %>
-        <% values = des.split(/\r\n/) %>
-        <p> <%=values[0] %></p>
-      </div><!-- /.col -->
-
-      </div><!-- /.row -->
+          <div class="col-md-8 col-sm-9 innercursos center-block text-center">
+              <header>
+                <h1><%= c.name  %></h1>
+                <% des = c.description.to_s %>
+                <% values = des.split(/\r\n/) %>
+                <p> <%=values[0] %></p>
+              </header>
+          </div><!-- /.col -->
+    </div><!-- /.row -->
     <%
     end
      %>
 
-    <% if(@flag_show_pagination == false) %>
+     <% if(@flag_show_pagination == false) %>
        <%  puts @number_pages %>
      <% else %>
-       <div class="col-md-offset-5">
+       <div class="col-md-offset-5 padding-pagination">
          <nav aria-label="Page navigation">
          <ul class="pagination pagination-lg">
            <% @number_pages.times { |a|  %>
@@ -35,6 +32,7 @@
      </div><!-- /.container -->
    <% end %>
 
- </section>
+</section>
 
-<!-- ============================================================= SECTION – PRODUCT : END ============================================================= -->
+
+
