@@ -6,11 +6,9 @@ require 'ostruct'
 class SedesManager 
 
 	def initialize 
-		#uri = URI.parse("http://training.makingdevs.com.s3.amazonaws.com/data.json")
-		#content = Net::HTTP.get_response uri
-		#@values = JSON.parse(content.body)
-		json = File.read("./lib/ienpop/data.json")
-        @values = JSON.parse(json, object_class: OpenStruct)
+		uri = URI.parse("http://training.makingdevs.com.s3.amazonaws.com/data.json")
+		content = Net::HTTP.get_response uri
+		@values = JSON.parse(content.body, object_class: OpenStruct)
 	end
 
 	def list_all_sedes
