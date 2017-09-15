@@ -33,6 +33,10 @@ class IENPOP < Sinatra::Base
     erb :sedes
   end
 
+  post '/contact/info' do
+    puts "#{params}"
+  end
+
   get '/libreta_int_lib' do
     limit = params['limit'] || 10
     page = params['page'] || 0
