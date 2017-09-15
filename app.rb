@@ -34,7 +34,15 @@ class IENPOP < Sinatra::Base
   end
 
   post '/contact/info' do
-    puts "#{params}"
+    
+    if params['name'].empty? or params['message'].empty? or params['email'].empty?
+      puts "Por completa los campos obligatorios"
+    else
+      puts "Si vienen los campos obligatorios"
+    end
+
+
+
   end
 
   get '/libreta_int_lib' do
