@@ -71,26 +71,28 @@
               </div><!-- /.panel-heading -->
 
               <div id="managers-content" class="panel-collapse collapse">
+                 <%  @managers.each do |c| %>
                 <div class="panel-body">
                   
-                  <%  @managers.each do |c| %>
+                 
                   <section class="dark-bg" >
                       <div class="row">
-                        <div class="col-sm-3">
-                          <p><%= c.name  %></p>
+                        <div class="col-md-4 col-md-offset-1">
+                          <p><i class="icon-user-1"></i> <%= c.name  %></p>
                         </div><!-- /.col -->
-                        <div class="col-sm-9">
-                          <p><%= c.area  %></p>
-                          <p><%= c.email  %></p>
+                        <div class="col-md-7 ">
+                          <p><i class="icon-location-1"></i> <%= c.area  %></p>
+                          <p><i class="icon-mail-alt"></i> <%= c.email  %></p>
                           
                         </div><!-- /.col -->
 
                       </div><!-- /.row -->
                   </section>
-                  <%
+                 
+                </div><!-- /.panel-body -->
+                 <%
                   end
                    %>
-                </div><!-- /.panel-body -->
               </div><!-- /.content -->
 
             </div><!-- /.panel -->
