@@ -1,4 +1,4 @@
-class sede
+class Sede
   attr_accessor :name
   attr_accessor :address
   attr_accessor :phone
