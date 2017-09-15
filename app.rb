@@ -1,11 +1,14 @@
 require 'sinatra'
 require './lib/ienpop/course_manager'
 require './lib/ienpop/managers_manager'
+require './lib/ienpop/sedes_manager'
+
 
 class IENPOP < Sinatra::Base
 
   course_manager = CourseManager.new
   managers_manager = ManagersManager.new
+  sedes_manager = SedesManager.new
 
   get '/' do
     @message = params['error']
@@ -26,6 +29,7 @@ class IENPOP < Sinatra::Base
 
   get '/sedes' do
     @managers = managers_manager.list_all_manager
+    @sedes = sedes_manager.list_all_sedes
     erb :sedes
   end
 
