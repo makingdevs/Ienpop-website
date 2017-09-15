@@ -72,21 +72,24 @@
 
               <div id="managers-content" class="panel-collapse collapse">
                 <div class="panel-body">
-
+                  
+                  <%  @managers.each do |c| %>
                   <section class="dark-bg" >
                       <div class="row">
                         <div class="col-sm-3">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas corrupti culpa consequatur totam, autem obcaecati asperiores vero sed impedit, vel, tempora id accusantium expedita quisquam rerum temporibus eos minima nulla.</p>
+                          <p><%= c.name  %></p>
                         </div><!-- /.col -->
                         <div class="col-sm-9">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi rem odio quod sed accusamus, magnam praesentium labore, temporibus iste repudiandae culpa et! Alias voluptatem soluta nulla officiis, ducimus repudiandae distinctio!</p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ut repellendus doloribus quidem distinctio, aut, perferendis provident optio eius totam illum quia. Magni deleniti alias nam, fuga totam. Saepe, soluta.</p>
+                          <p><%= c.area  %></p>
+                          <p><%= c.email  %></p>
                           
                         </div><!-- /.col -->
 
                       </div><!-- /.row -->
                   </section>
-  
+                  <%
+                  end
+                   %>
                 </div><!-- /.panel-body -->
               </div><!-- /.content -->
 
