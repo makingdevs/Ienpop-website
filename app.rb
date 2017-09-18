@@ -34,16 +34,17 @@ class IENPOP < Sinatra::Base
   end
 
   post '/contact/info' do
-    
     if params['name'].empty? or params['message'].empty? or params['email'].empty?
-      puts "Por completa los campos obligatorios"
+      puts "Por favor completa los campos obligatorios"
     else
-      puts "Si vienen los campos obligatorios"
+      @name = params['name']
+      @email = params['email']
+      @subject = params['subject']
+      @message = params['message']
+      erb :Otra 
     end
-
-
-
   end
+
 
   get '/libreta_int_lib' do
     limit = params['limit'] || 10
