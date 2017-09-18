@@ -26,6 +26,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/contact' do
+    @sedes = sedes_manager.list_all_sedes
     erb :contact
   end
 
@@ -36,6 +37,7 @@ class IENPOP < Sinatra::Base
   end
 
   post '/contact/info' do
+    puts "#{params}"
     if params['name'].empty? or params['message'].empty? or params['email'].empty?
       puts "Por favor completa los campos obligatorios"
     else
