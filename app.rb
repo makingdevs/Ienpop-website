@@ -2,6 +2,7 @@ require 'sinatra'
 require './lib/ienpop/course_manager'
 require './lib/ienpop/managers_manager'
 require './lib/ienpop/sedes_manager'
+require './lib/ienpop/email_manager'
 
 
 class IENPOP < Sinatra::Base
@@ -9,6 +10,7 @@ class IENPOP < Sinatra::Base
   course_manager = CourseManager.new
   managers_manager = ManagersManager.new
   sedes_manager = SedesManager.new
+  email_manager = EmailManager.new
 
   get '/' do
     @message = params['error']
@@ -41,7 +43,8 @@ class IENPOP < Sinatra::Base
       @email = params['email']
       @subject = params['subject']
       @message = params['message']
-      erb :Otra 
+      email_manager.receive_info(@name, @email, @subject, @message)
+      
     end
   end
 
