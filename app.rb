@@ -37,16 +37,10 @@ class IENPOP < Sinatra::Base
   end
 
   post '/contact/info' do
-    puts "#{params}"
-    if params['name'].empty? or params['message'].empty? or params['email'].empty?
+    if params['name'].empty? or params['message'].empty? or params['email'].empty? or params['subject'].empty? 
       puts "Por favor completa los campos obligatorios"
     else
-      @name = params['name']
-      @email = params['email']
-      @subject = params['subject']
-      @message = params['message']
-      email_manager.receive_info(@name, @email, @subject, @message)
-      
+     email_manager.receive_info(params)
     end
   end
 
