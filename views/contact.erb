@@ -46,7 +46,8 @@
 											    <label for="sedes">Selecciona una sede:</label>
 											    <select class="form-control" name="sedes" id="sedes" required>
 											    	<% @sedes.each do |c|%>
-												      <option value="<%= c.name %>"><%= c.name %></option>
+												      <option value="<%= c.email %>"><%= c.name %></option>
+												      
 												    <% end %>
 												</select>
 										
