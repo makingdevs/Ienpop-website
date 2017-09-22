@@ -9,6 +9,7 @@ class SedesManager
 		uri = URI.parse("http://training.makingdevs.com.s3.amazonaws.com/data.json")
 		content = Net::HTTP.get_response uri
 		@values = JSON.parse(content.body, object_class: OpenStruct)
+
 	end
 
 	def list_all_sedes
@@ -23,6 +24,6 @@ class SedesManager
 			sede.coordinates = c.coordinates
 			sedes << sede
 		end
-	sedes
+		sedes
 	end
 end
