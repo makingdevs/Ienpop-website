@@ -30,6 +30,7 @@ class IENPOP < Sinatra::Base
   get '/sedes' do
     @managers = managers_manager.list_all_manager
     @sedes = sedes_manager.list_all_sedes
+    @api_key = ENV["API_KEY"]
     erb :sedes
   end
 
