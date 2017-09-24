@@ -2,6 +2,7 @@ require 'sinatra'
 require './lib/ienpop/course_manager'
 require './lib/ienpop/managers_manager'
 require './lib/ienpop/sedes_manager'
+require './lib/ienpop/email_manager'
 
 
 class IENPOP < Sinatra::Base
@@ -9,6 +10,7 @@ class IENPOP < Sinatra::Base
   course_manager = CourseManager.new
   managers_manager = ManagersManager.new
   sedes_manager = SedesManager.new
+  email_manager = EmailManager.new
 
   get '/' do
     @message = params['error']
@@ -24,6 +26,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/contact' do
+    @sedes = sedes_manager.list_all_sedes
     erb :contact
   end
 
@@ -33,6 +36,17 @@ class IENPOP < Sinatra::Base
     @api_key = ENV["API_KEY"]
     erb :sedes
   end
+
+  post '/contact/info' do
+    if params['name'].empty? or params['message'].empty? or params['email'].empty? or params['subject'].empty? 
+      puts "Por favor completa los campos obligatorios"
+    else
+      sedes = sedes_manager.list_all_sedes
+      email_manager.send_email(params,sedes)
+      redirect '/contact'
+    end
+  end
+
 
   get '/libreta_int_lib' do
     limit = params['limit'] || 10
