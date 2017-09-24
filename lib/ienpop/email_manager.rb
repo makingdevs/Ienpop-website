@@ -24,13 +24,14 @@ class EmailManager
     message = params['message']
     sede = params['sedes']
     
-    central_sede =  sedes[0].name
-    puts central_sede
+    central_sede_email =  sedes[0].email
+    puts central_sede_email
 
     message = Mail.deliver({:to => 'vanessa@makingdevs.com',
           :from => ENV["USER_NAME"],
+          :cc => 'vanvanemily@gmail.com',
           :subject => "#{subject}",
-          :body => "#{message}"
+          :body => "#{message} \nMensaje enviado por #{name_contact}, con el correo de #{email}"
           })
   end
 
