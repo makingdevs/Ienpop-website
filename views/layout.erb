@@ -34,102 +34,90 @@
 
 <body>
 
-  <div class="navbar">
+    
+    <div class="navbar">
 
-          <!-- ============================================================= MAIN NAVIGATION ============================================================= -->
+      <!-- ============================================================= MAIN NAVIGATION ============================================================= -->
+      <ul class="nav navbar-nav navbar">
+        
+          <li>
+            <a href="/home">INICIO</a>
+          </li><!-- /.dropdown -->
 
-          <ul class="nav navbar-nav navbar">
+          <li>
+            <a href="/about">QUI&Eacute;NES SOMOS</a>
+          </li><!-- /.dropdown -->
 
-            <li>
-              <a href="/home">INICIO</a>
-            </li><!-- /.dropdown -->
-
-            <li>
-              <a href="/about">QUI&Eacute;NES SOMOS</a>
-            </li><!-- /.dropdown -->
-
-            <li class="dropdown hover">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">CURSOS</a>
-
-              <ul class="dropdown-menu">
-
-                <li class="dropdown-submenu hover">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">SECTOR A: LIBRETA INTERNACIONAL</a>
-
+          <li class="dropdown hover">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">CURSOS</a>
+            
+            <ul class="dropdown-menu">
+              <li class="dropdown-submenu hover">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">SECTOR A: LIBRETA INTERNACIONAL</a>
                   <ul class="dropdown-menu">
 
                     <li><a href="/libreta_int_lib">LIBRETAS</a></li>
                     <li><a href="/libreta_int_cer">CERTIFICADOS DE COMPETENCIA</a></li>
 
                   </ul><!-- /.dropdown-menu -->
-                </li><!-- /.dropdown-submenu -->
+              </li><!-- /.dropdown-submenu -->
+              
+              <li class="dropdown-submenu hover">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">SECTOR B: PESCADORES</a>
 
-                <li class="dropdown-submenu hover">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">SECTOR B: PESCADORES</a>
+                <ul class="dropdown-menu">
+                  <li><a href="/pescadores_lib">LIBRETAS</a></li>
+                  <li><a href="/pescadores_cer">CERTIFICADOS DE COMPETENCIA</a></li>
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.dropdown-submenu -->
 
-                  <ul class="dropdown-menu">
-                    <li><a href="/pescadores_lib">LIBRETAS</a></li>
-                    <li><a href="/pescadores_cer">CERTIFICADOS DE COMPETENCIA</a></li>
-                  </ul><!-- /.dropdown-menu -->
-                </li><!-- /.dropdown-submenu -->
+              <li class="dropdown-submenu hover">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">SECTOR C: TUR&Iacute;STICO</a>
+                <ul class="dropdown-menu">
 
-                <li class="dropdown-submenu hover">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">SECTOR C: TUR&Iacute;STICO</a>
+                  <li><a href="/turistico_lib">LIBRETAS</a></li>
+                  <li><a href="/turistico_cer">CERTIFICADOS DE COMPETENCIA</a></li>
 
-                  <ul class="dropdown-menu">
+                </ul><!-- /.dropdown-menu -->
+              </li><!-- /.dropdown-submenu -->
 
-                    <li><a href="/turistico_lib">LIBRETAS</a></li>
-                    <li><a href="/turistico_cer">CERTIFICADOS DE COMPETENCIA</a></li>
+              <li class="dropdown-submenu hover">
+                <a href="/" class="dropdown-toggle" data-toggle="dropdown">SECTOR D: PLATAFORMAS Y BARCASAS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/plataformas_barcasas">LIBRETAS</a></li>
+                </ul><!-- /.dropdown-menu -->
+              </li>
 
-                  </ul><!-- /.dropdown-menu -->
-                </li><!-- /.dropdown-submenu -->
+            </ul><!-- /.dropdown-menu -->
+          </li><!-- /.dropdown -->
 
-                <li class="dropdown-submenu hover">
-                  <a href="/" class="dropdown-toggle" data-toggle="dropdown">SECTOR D: PLATAFORMAS Y BARCASAS
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/plataformas_barcasas">LIBRETAS</a></li>
-                  </ul><!-- /.dropdown-menu -->
-                </li>
+          <li>
+            <a href="/sedes">SEDES</a>
+          </li><!-- /.dropdown -->
 
-              </ul><!-- /.dropdown-menu -->
-            </li><!-- /.dropdown -->
+         <li>
+            <a href="/contact">CONTACTO</a>
+          </li><!-- /.dropdown -->
+      </ul><!-- /.nav -->
 
-            <li>
-              <a href="/sedes">SEDES</a>
-            </li><!-- /.dropdown -->
+        <!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
 
-           <li>
-              <a href="/contact">CONTACTO</a>
-            </li><!-- /.dropdown -->
-
-
-
-          </ul><!-- /.nav -->
-
-          <!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
-
-        </div><!-- /.container -->
-      </div></div><!-- /.navbar-collapse -->
-    </div><!-- /.yamm -->
-  </div>
-
-
-  <!-- Three columns of text below the carousel -->
+    </div><!-- /.navbar-collapse -->
+  
+   <!-- Three columns of text below the carousel -->
+  
   <main>
     <%= yield %>
   </main>
-
-
-
-    <!-- ============================================================= FOOTER ============================================================= -->
+  <!-- ============================================================= FOOTER ============================================================= -->
 
     <footer class="footer-bottom">
       <div class="container inner">
         <p class="pull-right">© 2017 Instituto de Educaci&oacute;n N&aacute;utica y Portuaria Oc&eacute;ano Pac&iacute;fico SA de CV</p>
       </div><!-- .container -->
     </footer>
-
+ 
 
     <!-- JavaScripts placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="<%= url('third-party/jquery/dist/jquery.min.js') %>"></script>
