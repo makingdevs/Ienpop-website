@@ -41,7 +41,8 @@ class IENPOP < Sinatra::Base
       puts "Por favor completa los campos obligatorios"
     else
       email_manager.settings
-     email_manager.send_email(params)
+      sedes = sedes_manager.list_all_sedes
+      email_manager.send_email(params,sedes)
     end
   end
 
