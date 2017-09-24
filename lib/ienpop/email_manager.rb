@@ -3,7 +3,6 @@ require 'net/smtp'
 
 class EmailManager 
   
-
   def settings
     mail = Mail.defaults do
       delivery_method :smtp, { 
@@ -25,8 +24,7 @@ class EmailManager
     sede = params['sedes']
     
     central_sede_email =  sedes[0].email
-    puts central_sede_email
-
+    
     message = Mail.deliver({:to => 'vanessa@makingdevs.com',
           :from => ENV["USER_NAME"],
           :cc => 'vanvanemily@gmail.com',
@@ -34,17 +32,6 @@ class EmailManager
           :body => "#{message} \nMensaje enviado por #{name_contact}, con el correo de #{email}"
           })
   end
-
-
-
-  def receive_info(params)
-		@name = params['name']
-		@email = params['email']
-		@subject = params['subject']
-		@message = params['message']
-		@sedes = params['sedes']
-	end
-
 
 end
 
