@@ -17,12 +17,15 @@ class EmailManager
     end
   end
 
-  def send_email(params)
-    name = params['name']
+  def send_email(params, sedes)
+    name_contact = params['name']
     email = params['email']
     subject = params['subject']
     message = params['message']
-    sedes = params['sedes']
+    sede = params['sedes']
+    
+    central_sede =  sedes[0].name
+    puts central_sede
 
     message = Mail.deliver({:to => 'vanessa@makingdevs.com',
           :from => ENV["USER_NAME"],
