@@ -25,11 +25,11 @@ class EmailManager
 
     central_sede_email =  sedes[0].email
     
-    message = Mail.deliver({:to => "#{name_contact}",
+    message = Mail.deliver({:to => "#{sede}",
           :from => ENV["USER_NAME"],
           :cc => "#{central_sede_email}",
           :subject => "#{subject}",
-          :body => "#{message} \nMensaje enviado por #{name_contact}, con el correo de #{email}"
+          :body => "#{message} \nMensaje enviado por #{name_contact}, con el siguiente correo de contacto #{email}"
           })
 
     if message.error_status 
