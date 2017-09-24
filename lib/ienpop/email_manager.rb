@@ -3,25 +3,29 @@ require 'net/smtp'
 
 class EmailManager 
   
-  options = { 
-    :address        => ENV["ADDRESS_MAIl"],
-    :port           => ENV["PORT_MAIL"],
-    :authentication => ENV["AUTHENTICATION"],
-    :user_name      => ENV["USER_NAME"],
-    :password       => ENV["PASSWORD_MAIL"],
-    :enable_starttls_auto => ENV["ENABLE_STARTTLS_AUTO"] 
-  }
 
-  Mail.defaults do
-    delivery_method :smtp, options
+  def settings
+    mail = Mail.defaults do
+      delivery_method :smtp, { 
+        :address        => ENV["ADDRESS_MAIL"],
+        :port           => ENV["PORT_MAIL"],
+        :authentication => ENV["AUTHENTICATION"],
+        :user_name      => ENV["USER_NAME"],
+        :password       => ENV["PASSWORD_MAIL"],
+        :enable_starttls_auto => ENV["ENABLE_STARTTLS_AUTO"] 
+      }
+    end
   end
 
-  Mail.deliver do
-      to 'vanessa@makingdevs.com'
-      from ENV["USER_NAME"]
-      subject 'Sending EMAIl'
-      body 'Pruebita 3'
+  def send_email
+    message = Mail.deliver({:to => 'vanessa@makingdevs.com',
+          :from => ENV["USER_NAME"],
+          :subject => 'Pruebas',
+          :body => 'Sending email for testing'
+          })
   end
+
+
 
   def receive_info(params)
 		@name = params['name']
