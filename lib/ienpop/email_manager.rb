@@ -3,7 +3,7 @@ require 'net/smtp'
 
 class EmailManager 
   
-  def settings
+  def initialize
     mail = Mail.defaults do
       delivery_method :smtp, { 
         :address        => ENV["ADDRESS_MAIL"],
@@ -15,7 +15,7 @@ class EmailManager
       }
     end
   end
-
+  
   def send_email(params, sedes)
     name_contact = params['name']
     email = params['email']
