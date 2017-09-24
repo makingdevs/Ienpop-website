@@ -42,6 +42,7 @@ class IENPOP < Sinatra::Base
     else
       sedes = sedes_manager.list_all_sedes
       email_manager.send_email(params,sedes)
+      redirect '/contact'
     end
   end
 
