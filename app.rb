@@ -1,15 +1,17 @@
 require 'sinatra'
+require "sinatra/config_file"
+require 'sinatra/flash'
 require './lib/ienpop/course_manager'
 require './lib/ienpop/managers_manager'
 require './lib/ienpop/sedes_manager'
 require './lib/ienpop/email_manager'
-require 'sinatra/flash'
-
 
 class IENPOP < Sinatra::Base
+  register Sinatra::ConfigFile
 
   enable :sessions
   register Sinatra::Flash
+  config_file 'config/config.yml'
 
   course_manager = CourseManager.new
   managers_manager = ManagersManager.new
@@ -18,6 +20,7 @@ class IENPOP < Sinatra::Base
 
   get '/' do
     @message = params['error']
+    puts settings.db['siyen_db']
     erb :index
   end
 
