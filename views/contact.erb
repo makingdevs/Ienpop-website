@@ -11,14 +11,7 @@
 				</div><!-- /.container -->
 </section>
 <section id="contact-form" class="dark-bg">
-			<%  if flash[:success] %>
-				<h1><%= flash[:success] %></h1>
-			<% end %>
-			<%  if flash[:warning] %>
-				<h1><%= flash[:warning] %></h1>
-			<% end %>
-			
-				<div class="container innercontact">
+			<div class="container innercontact">
 
 					<div class="row">
 						<div class="col-sm-12">
@@ -71,7 +64,16 @@
 
 									</form>
 
-									<div id="response"></div>
+									<%  if flash[:success] %>
+										<div class="alert alert-success fade in" style="margin-top: 10px;">
+											<%= flash[:success] %>
+										</div>
+									<% end %>
+									<%  if flash[:warning] %>
+										<div class="alert alert-danger fade in" style="margin-top: 10px;">
+									    	<%= flash[:warning] %>
+										</div>
+									<% end %>
 
 								</div><!-- ./col -->
 
