@@ -47,10 +47,11 @@ class IENPOP < Sinatra::Base
     else
       sedes = sedes_manager.list_all_sedes
       flag = email_manager.send_email(params,sedes)
+      
       if flag == true
-        flash[:success] = "Hola Vanessa :D"
+        flash[:success] = "El mensaje fue enviado exitosamente."
       else 
-        flash[:warning] = "This is warning"
+        flash[:warning] = "Ocurrio un error al enviar el mensaje."
       end
       redirect '/contact'
     end
