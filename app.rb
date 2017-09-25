@@ -3,9 +3,13 @@ require './lib/ienpop/course_manager'
 require './lib/ienpop/managers_manager'
 require './lib/ienpop/sedes_manager'
 require './lib/ienpop/email_manager'
+require 'sinatra/flash'
 
 
 class IENPOP < Sinatra::Base
+
+  enable :sessions
+  register Sinatra::Flash
 
   course_manager = CourseManager.new
   managers_manager = ManagersManager.new
@@ -41,6 +45,7 @@ class IENPOP < Sinatra::Base
     if params['name'].empty? or params['message'].empty? or params['email'].empty? or params['subject'].empty? 
       puts "Por favor completa los campos obligatorios"
     else
+      flash[:message] = "Hola Vanessa :D"
       sedes = sedes_manager.list_all_sedes
       email_manager.send_email(params,sedes)
       redirect '/contact'
