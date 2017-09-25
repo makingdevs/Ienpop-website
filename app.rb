@@ -45,9 +45,13 @@ class IENPOP < Sinatra::Base
     if params['name'].empty? or params['message'].empty? or params['email'].empty? or params['subject'].empty? 
       puts "Por favor completa los campos obligatorios"
     else
-      flash[:message] = "Hola Vanessa :D"
       sedes = sedes_manager.list_all_sedes
-      email_manager.send_email(params,sedes)
+      flag = email_manager.send_email(params,sedes)
+      if flag == true
+        flash[:success] = "Hola Vanessa :D"
+      else 
+        flash[:warning] = "This is warning"
+      end
       redirect '/contact'
     end
   end
