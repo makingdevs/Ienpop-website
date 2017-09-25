@@ -24,9 +24,7 @@ class EmailManager
     message = params['message']
     sede = params['sedes']
 
-    puts sede
     central_sede_email =  sedes[0].email
-    puts central_sede_email
 
     begin     
       message = Mail.deliver({:to => "#{sede}",
