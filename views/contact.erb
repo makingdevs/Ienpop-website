@@ -11,6 +11,9 @@
 				</div><!-- /.container -->
 </section>
 <section id="contact-form" class="dark-bg">
+			<%  if flash[:message] %>
+				<h1><%= flash[:message] %></h1>
+			<% end %>
 				<div class="container innercontact">
 
 					<div class="row">
