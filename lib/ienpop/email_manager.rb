@@ -4,16 +4,19 @@ require 'net/smtp'
 class EmailManager 
   
   def initialize
-    mail = Mail.defaults do
-      delivery_method :smtp, { 
-        :address        => ENV["ADDRESS_MAIL"],
-        :port           => ENV["PORT_MAIL"],
-        :authentication => ENV["AUTHENTICATION"],
-        :user_name      => ENV["USER_NAME"],
-        :password       => ENV["PASSWORD_MAIL"],
-        :enable_starttls_auto => ENV["ENABLE_STARTTLS_AUTO"] 
-      }
-    end
+
+     
+      mail = Mail.defaults do
+        delivery_method :smtp, { 
+          :address        => ENV["ADDRESS_MAIL"],
+          :port           => ENV["PORT_MAIL"],
+          :authentication => ENV["AUTHENTICATION"],
+          :user_name      => ENV["USER_NAME"],
+          :password       => ENV["PASSWORD_MAIL"],
+          :enable_starttls_auto => ENV["ENABLE_STARTTLS_AUTO"] 
+        }
+      end
+   
   end
   
   def send_email(params, sedes)
@@ -23,20 +26,21 @@ class EmailManager
     message = params['message']
     sede = params['sedes']
 
+    puts sede
     central_sede_email =  sedes[0].email
-    
-    message = Mail.deliver({:to => "#{sede}",
-          :from => ENV["USER_NAME"],
-          :cc => "#{central_sede_email}",
-          :subject => "#{subject}",
-          :body => "#{message} \nMensaje enviado por #{name_contact}, con el siguiente correo de contacto #{email}"
-          })
+    puts central_sede_email
 
-    if message.error_status 
-      puts "Hay error"
-    else
-      puts "No hay error"
-    end
+    begin     
+      message = Mail.deliver({:to => "#{sede}",
+            :from => ENV["USER_NAME"],
+            :cc => "#{central_sede_email}",
+            :subject => "#{subject}",
+            :body => "#{message} \nMensaje enviado por #{name_contact}, con el siguiente correo de contacto #{email}"
+            })
+    rescue  
+      puts 'I am rescued.'  
+    end  
+      puts 'I am after the begin block.' 
   end
 
 end
