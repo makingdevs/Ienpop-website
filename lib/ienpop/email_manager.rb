@@ -4,20 +4,18 @@ require 'net/smtp'
 class EmailManager 
   
   def initialize
-
-     
-      mail = Mail.defaults do
-        delivery_method :smtp, { 
-          :address        => ENV["ADDRESS_MAIL"],
-          :port           => ENV["PORT_MAIL"],
-          :authentication => ENV["AUTHENTICATION"],
-          :user_name      => ENV["USER_NAME"],
-          :password       => ENV["PASSWORD_MAIL"],
-          :enable_starttls_auto => ENV["ENABLE_STARTTLS_AUTO"] 
-        }
-      end
-   
+    mail = Mail.defaults do
+      delivery_method :smtp, { 
+        :address        => ENV["ADDRESS_MAIL"],
+        :port           => ENV["PORT_MAIL"],
+        :authentication => ENV["AUTHENTICATION"],
+        :user_name      => ENV["USER_NAME"],
+        :password       => ENV["PASSWORD_MAIL"],
+        :enable_starttls_auto => ENV["ENABLE_STARTTLS_AUTO"] 
+      }
+    end
   end
+  
   
   def send_email(params, sedes)
     name_contact = params['name']
@@ -38,9 +36,9 @@ class EmailManager
             :body => "#{message} \nMensaje enviado por #{name_contact}, con el siguiente correo de contacto #{email}"
             })
     rescue  
-      puts 'I am rescued.'  
+      puts 'Ocurrio un error al enviar el correo.'  
     end  
-      puts 'I am after the begin block.' 
+      puts 'Correo enviado exitosamente.' 
   end
 
 end
