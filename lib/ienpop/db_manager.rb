@@ -4,11 +4,11 @@ class DBManager
   
   def initialize(username_db, host_db, db, password_db, encoding_db)
     @client = Mysql2::Client.new(
-      :username => ENV["SIYEN_USERNAME_DB"],
-      :host => ENV["SIYEN_HOST_DB"],
-      :database => ENV["SIYEN_DB"],
-      :password => ENV["SIYEN_PASSWORD_DB"],
-      :encoding => ENV["SIYEN_ENCODING_DB"] || "utf8"
+      :username => username_db,
+      :host => host_db,
+      :database => db,
+      :password => password_db,
+      :encoding => encoding_db || "utf8"
     )
   end
 
