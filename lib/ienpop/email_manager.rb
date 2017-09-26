@@ -3,7 +3,13 @@ require 'net/smtp'
 
 class EmailManager 
   
-  def initialize
+  def initialize(address_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto)
+    puts address_mail
+    puts port_mail
+    puts authentication
+    puts user_name
+    puts password_mail
+    puts enable_starttls_auto
     mail = Mail.defaults do
       delivery_method :smtp, { 
         :address        => ENV["ADDRESS_MAIL"],
