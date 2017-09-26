@@ -3,15 +3,15 @@ require 'net/smtp'
 
 class EmailManager 
   
-  def initialize
+  def initialize(address_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto)
     mail = Mail.defaults do
       delivery_method :smtp, { 
-        :address        => ENV["ADDRESS_MAIL"],
-        :port           => ENV["PORT_MAIL"],
-        :authentication => ENV["AUTHENTICATION"],
-        :user_name      => ENV["USER_NAME"],
-        :password       => ENV["PASSWORD_MAIL"],
-        :enable_starttls_auto => ENV["ENABLE_STARTTLS_AUTO"] 
+        :address        => address_mail,
+        :port           => port_mail,
+        :authentication => authentication,
+        :user_name      => user_name,
+        :password       => password_mail,
+        :enable_starttls_auto => enable_starttls_auto 
       }
     end
   end
