@@ -1,8 +1,8 @@
 require 'mysql2'
 
-class DBManager
-
-  def initialize
+class DBManager 
+  
+  def initialize(username_db, host_db, db, password_db, encoding_db)
     @client = Mysql2::Client.new(
       :username => ENV["SIYEN_USERNAME_DB"],
       :host => ENV["SIYEN_HOST_DB"],
@@ -32,3 +32,5 @@ class DBManager
   end
 
 end
+
+
