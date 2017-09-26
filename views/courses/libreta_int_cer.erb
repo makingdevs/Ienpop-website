@@ -6,7 +6,9 @@
       <div class="row">
           <div class="col-md-8 col-sm-9 innercursos center-block text-center">
               <header>
-                <h1><%= c.name  %></h1>
+
+                <% uppercase = c.name.upcase %>
+                <h1><%= uppercase  %></h1>
                 <% des = c.description.to_s %>
                 <% values = des.split(/\r\n/) %>
                 <p> <%=values[0] %></p>
