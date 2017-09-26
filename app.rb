@@ -20,10 +20,19 @@ class IENPOP < Sinatra::Base
   password_db =  settings.db['siyen_password_db']
   encoding_db =  settings.db['siyen_encoding_db']
 
+  address_mail =  settings.mail['address_mail']  
+  port_mail =  settings.mail['port_mail']  
+  authentication =  settings.mail['authentication']  
+  user_name = settings.mail['user_name']  
+  password_mail = settings.mail['password_mail']  
+  enable_starttls_auto = settings.mail['enable_starttls_auto'] 
+
+  
+  
   course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
   managers_manager = ManagersManager.new
   sedes_manager = SedesManager.new
-  email_manager = EmailManager.new
+  email_manager = EmailManager.new(address_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto)
 
   get '/' do
     @message = params['error']
