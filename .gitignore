@@ -2,3 +2,4 @@ public/third-party/
 .DS_Store
 log/
 log/capistrano.log
+config/config.yml

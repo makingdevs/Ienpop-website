@@ -1,13 +1,26 @@
 require 'sinatra'
+require "sinatra/base"
+require "sinatra/config_file"
+require 'sinatra/flash'
 require './lib/ienpop/course_manager'
 require './lib/ienpop/managers_manager'
 require './lib/ienpop/sedes_manager'
 require './lib/ienpop/email_manager'
 
-
 class IENPOP < Sinatra::Base
+  register Sinatra::ConfigFile
+  config_file 'config/config.yml'
 
-  course_manager = CourseManager.new
+  enable :sessions
+  register Sinatra::Flash
+
+  username_db =  settings.db['siyen_username_db']
+  host_db =  settings.db['siyen_host_db']
+  db =  settings.db['siyen_db']
+  password_db =  settings.db['siyen_password_db']
+  encoding_db =  settings.db['siyen_encoding_db']
+
+  course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
   managers_manager = ManagersManager.new
   sedes_manager = SedesManager.new
   email_manager = EmailManager.new
@@ -42,7 +55,13 @@ class IENPOP < Sinatra::Base
       puts "Por favor completa los campos obligatorios"
     else
       sedes = sedes_manager.list_all_sedes
-      email_manager.send_email(params,sedes)
+      flag = email_manager.send_email(params,sedes)
+      
+      if flag == true
+        flash[:success] = "El mensaje fue enviado exitosamente."
+      else 
+        flash[:warning] = "Ocurrio un error al enviar el mensaje."
+      end
       redirect '/contact'
     end
   end

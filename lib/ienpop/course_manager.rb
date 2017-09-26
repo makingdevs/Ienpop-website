@@ -5,8 +5,8 @@ require './lib/ienpop/models/course'
 
 class CourseManager
 
-  def initialize
-    @conn = DBManager.new
+  def initialize(username_db, host_db, db, password_db, encoding_db)
+    @conn = DBManager.new(username_db, host_db, db, password_db, encoding_db)
   end
 
   def list_courses_notebook(limit, offset, notebook)

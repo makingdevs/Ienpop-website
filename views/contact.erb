@@ -11,7 +11,7 @@
 				</div><!-- /.container -->
 </section>
 <section id="contact-form" class="dark-bg">
-				<div class="container innercontact">
+			<div class="container innercontact">
 
 					<div class="row">
 						<div class="col-sm-12">
@@ -23,25 +23,25 @@
 									<form id="contactform" class="forms" action="/contact/info" method="post">
 
 										<div class="row">
-											<div class="col-sm-6 col-md-6 ">
+											<div class="col-sm-12 col-md-12 ">
 												<input type="text" name="name" class="form-control" placeholder="Nombre (Requerido)">
 											</div><!-- /.col -->
 										</div><!-- /.row -->
 
 										<div class="row">
-											<div class="col-sm-6 col-md-6">
+											<div class="col-sm-12 col-md-12">
 												<input type="email" name="email" class="form-control" placeholder="Email (Requerido)">
 											</div><!-- /.col -->
 										</div><!-- /.row -->
 
 										<div class="row">
-											<div class="col-sm-6 col-md-6">
+											<div class="col-sm-12 col-md-12">
 												<input type="text" name="subject" class="form-control" placeholder="Asunto">
 											</div><!-- /.col -->
 										</div><!-- /.row -->
 										
 										<div class="row">
-											<div class="col-sm-6 col-md-6">
+											<div class="col-sm-12 col-md-12">
 											
 											    <label for="sedes">Selecciona una sede:</label>
 											    <select class="form-control" name="sedes" id="sedes" required>
@@ -64,7 +64,16 @@
 
 									</form>
 
-									<div id="response"></div>
+									<%  if flash[:success] %>
+										<div class="alert alert-success fade in" style="margin-top: 10px;">
+											<%= flash[:success] %>
+										</div>
+									<% end %>
+									<%  if flash[:warning] %>
+										<div class="alert alert-danger fade in" style="margin-top: 10px;">
+									    	<%= flash[:warning] %>
+										</div>
+									<% end %>
 
 								</div><!-- ./col -->
 
