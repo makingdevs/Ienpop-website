@@ -51,3 +51,6 @@
 	color:  #99ccff !important;
 
 }
+.nav-padding > ul > li > a:hover{
+	color: #006bb3;
+}
