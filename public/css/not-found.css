@@ -1,3 +1,8 @@
 img {
   border-radius: 8px;
 }
+
+.imageNotFound {
+  border-radius: 8px;
+  margin-top: 25px;
+}
