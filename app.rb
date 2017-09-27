@@ -6,6 +6,7 @@ require './lib/ienpop/course_manager'
 require './lib/ienpop/managers_manager'
 require './lib/ienpop/sedes_manager'
 require './lib/ienpop/email_manager'
+require './lib/ienpop/testError'
 
 class IENPOP < Sinatra::Base
   register Sinatra::ConfigFile
@@ -20,17 +21,18 @@ class IENPOP < Sinatra::Base
   password_db =  settings.db['siyen_password_db']
   encoding_db =  settings.db['siyen_encoding_db']
 
-  address_mail =  settings.mail['address_mail']  
-  port_mail =  settings.mail['port_mail']  
-  authentication =  settings.mail['authentication']  
-  user_name = settings.mail['user_name']  
-  password_mail = settings.mail['password_mail']  
-  enable_starttls_auto = settings.mail['enable_starttls_auto'] 
+  address_mail =  settings.mail['address_mail']
+  port_mail =  settings.mail['port_mail']
+  authentication =  settings.mail['authentication']
+  user_name = settings.mail['user_name']
+  password_mail = settings.mail['password_mail']
+  enable_starttls_auto = settings.mail['enable_starttls_auto']
 
   course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
   managers_manager = ManagersManager.new
   sedes_manager = SedesManager.new
   email_manager = EmailManager.new(address_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto)
+  error = Error.new
 
   get '/' do
     @message = params['error']
@@ -58,15 +60,15 @@ class IENPOP < Sinatra::Base
   end
 
   post '/contact/info' do
-    if params['name'].empty? or params['message'].empty? or params['email'].empty? or params['subject'].empty? 
+    if params['name'].empty? or params['message'].empty? or params['email'].empty? or params['subject'].empty?
       puts "Por favor completa los campos obligatorios"
     else
       sedes = sedes_manager.list_all_sedes
       flag = email_manager.send_email(params,sedes)
-      
+
       if flag == true
         flash[:success] = "El mensaje fue enviado exitosamente."
-      else 
+      else
         flash[:warning] = "Ocurrio un error al enviar el mensaje."
       end
       redirect '/contact'
@@ -185,6 +187,17 @@ class IENPOP < Sinatra::Base
     @courses =  course_manager.list_courses_notebook(limit, offset, 'D')
     erb :"courses/plataformas_barcasas"
   end
+
+  not_found do
+    list = error.testErro()
+    erb :"layouts/404"
+  end
+
+  error do
+      'Sorry there was a nasty error - ' + env['sinatra.error'].message
+  end
+
+
 end
 
 if __FILE__ == $0
