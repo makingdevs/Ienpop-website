@@ -54,3 +54,6 @@
 .nav-padding > ul > li > a:hover{
 	color: #006bb3;
 }
+.change-margin{
+	margin-left: 15% !important;
+}
