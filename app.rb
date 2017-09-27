@@ -7,10 +7,17 @@ require './lib/ienpop/managers_manager'
 require './lib/ienpop/sedes_manager'
 require './lib/ienpop/email_manager'
 require './lib/ienpop/testError'
+require 'sinatra/reloader'
 
 class IENPOP < Sinatra::Base
   register Sinatra::ConfigFile
   config_file 'config/config.yml'
+  configure :development do
+    register Sinatra::Reloader
+    after_reload do
+      puts 'reloaded'
+    end
+  end
 
   enable :sessions
   register Sinatra::Flash
@@ -35,6 +42,7 @@ class IENPOP < Sinatra::Base
   error = Error.new
 
   get '/' do
+    sinatra = "reload lao"
     @message = params['error']
     erb :index
   end
