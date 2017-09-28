@@ -11,7 +11,12 @@ require 'sinatra/reloader'
 
 class IENPOP < Sinatra::Base
   register Sinatra::ConfigFile
+  register Sinatra::Flash
+
+  enable :sessions
+
   config_file 'config/config.yml'
+
   configure :development do
     register Sinatra::Reloader
     after_reload do
@@ -19,30 +24,27 @@ class IENPOP < Sinatra::Base
     end
   end
 
-  enable :sessions
-  register Sinatra::Flash
+  def initialize(app = nil, params = {})
+    super(app)
+    username_db =  settings.db['siyen_username_db']
+    host_db =  settings.db['siyen_host_db']
+    db =  settings.db['siyen_db']
+    password_db =  settings.db['siyen_password_db']
+    encoding_db =  settings.db['siyen_encoding_db']
 
-  username_db =  settings.db['siyen_username_db']
-  host_db =  settings.db['siyen_host_db']
-  db =  settings.db['siyen_db']
-  password_db =  settings.db['siyen_password_db']
-  encoding_db =  settings.db['siyen_encoding_db']
+    address_mail =  settings.mail['address_mail']
+    port_mail =  settings.mail['port_mail']
+    authentication =  settings.mail['authentication']
+    user_name = settings.mail['user_name']
+    password_mail = settings.mail['password_mail']
+    enable_starttls_auto = settings.mail['enable_starttls_auto']
 
-  address_mail =  settings.mail['address_mail']
-  port_mail =  settings.mail['port_mail']
-  authentication =  settings.mail['authentication']
-  user_name = settings.mail['user_name']
-  password_mail = settings.mail['password_mail']
-  enable_starttls_auto = settings.mail['enable_starttls_auto']
-
-  
-
-  
-  course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
-  managers_manager = ManagersManager.new
-  sedes_manager = SedesManager.new
-  email_manager = EmailManager.new(address_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto)
-  error = Error.new
+    @course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
+    @managers_manager = ManagersManager.new
+    @sedes_manager = SedesManager.new
+    @email_manager = EmailManager.new(address_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto)
+    @error = Error.new
+  end
 
   get '/' do
     sinatra = "reload lao"
@@ -59,13 +61,13 @@ class IENPOP < Sinatra::Base
   end
 
   get '/contact' do
-    @sedes = sedes_manager.list_all_sedes
+    @sedes = @sedes_manager.list_all_sedes
     erb :contact
   end
 
   get '/sedes' do
-    @managers = managers_manager.list_all_manager
-    @sedes = sedes_manager.list_all_sedes
+    @managers = @managers_manager.list_all_manager
+    @sedes = @sedes_manager.list_all_sedes
     @api_key = settings.maps['api_key']
     erb :sedes
   end
@@ -74,8 +76,8 @@ class IENPOP < Sinatra::Base
     if params['name'].empty? or params['message'].empty? or params['email'].empty? or params['subject'].empty?
       puts "Por favor completa los campos obligatorios"
     else
-      sedes = sedes_manager.list_all_sedes
-      flag = email_manager.send_email(params,sedes)
+      sedes = @sedes_manager.list_all_sedes
+      flag = @email_manager.send_email(params,sedes)
 
       if flag == true
         flash[:success] = "El mensaje fue enviado exitosamente."
@@ -90,7 +92,7 @@ class IENPOP < Sinatra::Base
   get '/libreta_int_lib' do
     limit = params['limit'] || 10
     page = params['page'] || 0
-    count = course_manager.count_courses_notebook('A')
+    count = @course_manager.count_courses_notebook('A')
     if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
@@ -99,14 +101,14 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses =  course_manager.list_courses_notebook(limit, offset, 'A')
+    @courses =  @course_manager.list_courses_notebook(limit, offset, 'A')
     erb :"courses/libreta_int_lib"
   end
 
   get '/libreta_int_cer' do
     limit = params['limit'] || 10
     page = params['page'] || 0
-    count = course_manager.count_courses_certification_courses('A')
+    count = @course_manager.count_courses_certification_courses('A')
     if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
@@ -115,14 +117,14 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses =  course_manager.list_course_notebook_certification(limit, offset, 'A')
+    @courses =  @course_manager.list_course_notebook_certification(limit, offset, 'A')
     erb :"courses/libreta_int_cer"
   end
 
   get '/turistico_lib' do
     limit = params['limit'] || 10
     page = params['page'] || 0
-    count = course_manager.count_courses_notebook('C')
+    count = @course_manager.count_courses_notebook('C')
     if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
@@ -131,14 +133,14 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses = course_manager.list_courses_notebook(limit, offset, 'C')
+    @courses = @course_manager.list_courses_notebook(limit, offset, 'C')
     erb :"courses/turistico_lib"
   end
 
   get '/turistico_cer' do
     limit = params['limit'] || 10
     page = params['page'] || 0
-    count = course_manager.count_courses_notebook('C')
+    count = @course_manager.count_courses_notebook('C')
     if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
@@ -147,14 +149,14 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses =  course_manager.list_course_notebook_certification(limit, offset, 'C')
+    @courses =  @course_manager.list_course_notebook_certification(limit, offset, 'C')
     erb :"courses/turistico_cer"
   end
 
   get '/pescadores_lib' do
     limit = params['limit'] || 10
     page = params['page'] || 0
-    count = course_manager.count_courses_notebook('B')
+    count = @course_manager.count_courses_notebook('B')
     if(count <=  limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
@@ -163,14 +165,14 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses =  course_manager.list_courses_notebook(limit, offset, 'B')
+    @courses =  @course_manager.list_courses_notebook(limit, offset, 'B')
     erb :"courses/pescadores_lib"
   end
 
   get '/pescadores_cer' do
     limit = params['limit'] || 10
     page = params['page'] || 0
-    count = course_manager.count_courses_certification_courses('B')
+    count = @course_manager.count_courses_certification_courses('B')
     if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
@@ -179,14 +181,14 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses =  course_manager.list_course_notebook_certification(limit, offset, 'B')
+    @courses =  @course_manager.list_course_notebook_certification(limit, offset, 'B')
     erb :"courses/pescadores_cer"
   end
 
   get '/plataformas_barcasas' do
     limit = params['limit'] || 10
     page = params['page'] || 0
-    count = course_manager.count_courses_notebook('D')
+    count = @course_manager.count_courses_notebook('D')
     if(count <= limit.to_i)
       @flag_show_pagination = false
       @number_pages = 0
@@ -195,12 +197,12 @@ class IENPOP < Sinatra::Base
       @number_pages = (count / limit.to_i) + 1
     end
     offset = page.to_i * limit.to_i
-    @courses =  course_manager.list_courses_notebook(limit, offset, 'D')
+    @courses =  @course_manager.list_courses_notebook(limit, offset, 'D')
     erb :"courses/plataformas_barcasas"
   end
 
   not_found do
-    list = error.testErro()
+    list = @error.testErro()
     erb :"layouts/404"
   end
 
@@ -210,9 +212,3 @@ class IENPOP < Sinatra::Base
 
 
 end
-
-if __FILE__ == $0
-    IENPOP.run!
-end
-
-
