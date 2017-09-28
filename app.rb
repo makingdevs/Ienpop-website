@@ -35,6 +35,9 @@ class IENPOP < Sinatra::Base
   password_mail = settings.mail['password_mail']
   enable_starttls_auto = settings.mail['enable_starttls_auto']
 
+  
+
+  
   course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
   managers_manager = ManagersManager.new
   sedes_manager = SedesManager.new
@@ -63,7 +66,7 @@ class IENPOP < Sinatra::Base
   get '/sedes' do
     @managers = managers_manager.list_all_manager
     @sedes = sedes_manager.list_all_sedes
-    @api_key = ENV["API_KEY"]
+    @api_key = settings.maps['api_key']
     erb :sedes
   end
 
