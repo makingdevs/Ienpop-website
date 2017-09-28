@@ -26,6 +26,8 @@ class IENPOP < Sinatra::Base
 
   def initialize(app = nil, params = {})
     super(app)
+    puts settings
+    puts settings.db
     username_db =  settings.db['siyen_username_db']
     host_db =  settings.db['siyen_host_db']
     db =  settings.db['siyen_db']
