@@ -8,6 +8,7 @@ require './lib/ienpop/sedes_manager'
 require './lib/ienpop/email_manager'
 require './lib/ienpop/testError'
 require 'sinatra/reloader'
+require 'rack-google-analytics'
 
 class IENPOP < Sinatra::Base
   register Sinatra::ConfigFile
@@ -18,6 +19,8 @@ class IENPOP < Sinatra::Base
       puts 'reloaded'
     end
   end
+
+  use Rack::GoogleAnalytics, :tracker => settings.maps['id_analytics']
 
   enable :sessions
   register Sinatra::Flash
