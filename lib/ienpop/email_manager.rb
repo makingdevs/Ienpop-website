@@ -14,6 +14,7 @@ class EmailManager
         :enable_starttls_auto => enable_starttls_auto 
       }
     end
+    @user_name = user_name
   end
   
   
@@ -25,20 +26,20 @@ class EmailManager
     sede = params['sedes']
 
     central_sede_email =  sedes[0].email
-
+    
     begin     
       message = Mail.deliver({:to => "#{sede}",
-            :from => ENV["USER_NAME"],
+            :from => @user_name,
             :cc => "#{central_sede_email}",
             :subject => "#{subject}",
             :body => "#{message} \nMensaje enviado por #{name_contact}, con el siguiente correo de contacto #{email}"
             })
+      @response = true
     rescue  
       puts 'Ocurrio un error al enviar el correo.'
-      response = false  
+      @response = false  
     end  
-      puts 'Correo enviado exitosamente.' 
-      response = true
+      @response
   end
 
 end
