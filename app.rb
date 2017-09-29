@@ -214,3 +214,7 @@ class IENPOP < Sinatra::Base
 
 
 end
+
+if __FILE__ == $0
+      IENPOP.run!
+end
