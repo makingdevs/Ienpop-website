@@ -210,6 +210,7 @@ class IENPOP < Sinatra::Base
 
   error do
       'Sorry there was a nasty error - ' + env['sinatra.error'].message
+    erb :"layouts/error"
   end
 
 
