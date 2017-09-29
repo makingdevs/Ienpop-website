@@ -26,11 +26,6 @@ class IENPOP < Sinatra::Base
 
   def initialize(app = nil, params = {})
     super(app)
-  end
-
-  get '/' do
-    puts settings
-    puts settings.db
     username_db =  settings.db['siyen_username_db']
     host_db =  settings.db['siyen_host_db']
     db =  settings.db['siyen_db']
@@ -49,6 +44,9 @@ class IENPOP < Sinatra::Base
     @sedes_manager = SedesManager.new
     @email_manager = EmailManager.new(address_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto)
     @error = Error.new
+  end
+
+  get '/' do
     sinatra = "reload lao"
     @message = params['error']
     erb :index
