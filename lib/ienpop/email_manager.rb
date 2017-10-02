@@ -35,8 +35,8 @@ class EmailManager
             :body => "#{message} \nMensaje enviado por #{name_contact}, con el siguiente correo de contacto #{email}"
             })
       @response = true
-    rescue  
-      puts 'Ocurrio un error al enviar el correo.'
+    rescue Exception => e
+      puts e.message 
       @response = false  
     end  
       @response
