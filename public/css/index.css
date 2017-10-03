@@ -61,10 +61,16 @@
 	.letter-size{
 		font-size: 50px !important;
 	}
+	.description-size{
+		font-size: 15px !important;
+	}
 }
 @media (min-width: 1200px) { 
 	.letter-size{
-		font-size: 60px !important;
+		font-size: 61px !important;
+	}
+	.description-size{
+		font-size: 30px !important;
 	}
 }
 
