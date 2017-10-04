@@ -4,7 +4,7 @@
 # You can define all roles on a single server, or split them:
 set :deploy_to, "/var/www/#{fetch(:application)}/staging"
 set :stage, :staging
-set :branch, "feature/65"
+set :branch, "staging"
 
 server "stage.ienpop.com", user: "ec2-user", roles: %w{app web}
 # server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
