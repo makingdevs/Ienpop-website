@@ -35,17 +35,18 @@ class IENPOP < Sinatra::Base
     password_db =  settings.db['siyen_password_db']
     encoding_db =  settings.db['siyen_encoding_db']
 
-    address_mail =  settings.mail['address_mail']
+    server_mail =  settings.mail['server_mail']
     port_mail =  settings.mail['port_mail']
     authentication =  settings.mail['authentication']
     user_name = settings.mail['user_name']
     password_mail = settings.mail['password_mail']
     enable_starttls_auto = settings.mail['enable_starttls_auto']
+    address_mail = settings.mail['address_mail']
 
     @course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
     @managers_manager = ManagersManager.new
     @sedes_manager = SedesManager.new
-    @email_manager = EmailManager.new(address_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto)
+    @email_manager = EmailManager.new(server_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto, address_mail)
     @error = Error.new
   end
 
@@ -78,6 +79,8 @@ class IENPOP < Sinatra::Base
   post '/contact/info' do
     if params['name'].empty? or params['message'].empty? or params['email'].empty? or params['subject'].empty?
       puts "Por favor completa los campos obligatorios"
+      flash[:warning] = "Por favor completa los campos obligatorios"
+      redirect '/contact'
     else
       sedes = @sedes_manager.list_all_sedes
       flag = @email_manager.send_email(params,sedes)
