@@ -26,11 +26,11 @@ class EmailManager
     sede = params['sedes']
 
     central_sede_email =  sedes[0].email
-    
+    puts email
     begin     
       message = Mail.deliver({:to => "#{sede}",
             :from => @address_mail,
-            :cc => "#{central_sede_email}",
+            :cc => "#{central_sede_email}, #{email}",
             :subject => "#{subject}",
             :body => "#{message} \nMensaje enviado por #{name_contact}, con el siguiente correo de contacto #{email}"
             })
