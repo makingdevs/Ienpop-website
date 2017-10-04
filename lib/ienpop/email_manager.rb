@@ -3,10 +3,10 @@ require 'net/smtp'
 
 class EmailManager 
   
-  def initialize(address_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto)
+  def initialize(server_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto, address_mail)
     mail = Mail.defaults do
       delivery_method :smtp, { 
-        :address        => address_mail,
+        :address        => server_mail,
         :port           => port_mail,
         :authentication => authentication,
         :user_name      => user_name,
@@ -14,7 +14,7 @@ class EmailManager
         :enable_starttls_auto => enable_starttls_auto 
       }
     end
-    @user_name = user_name
+    @address_mail = address_mail
   end
   
   
@@ -29,7 +29,7 @@ class EmailManager
     
     begin     
       message = Mail.deliver({:to => "#{sede}",
-            :from => @user_name,
+            :from => @address_mail,
             :cc => "#{central_sede_email}",
             :subject => "#{subject}",
             :body => "#{message} \nMensaje enviado por #{name_contact}, con el siguiente correo de contacto #{email}"
