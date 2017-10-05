@@ -9,6 +9,7 @@ require './lib/ienpop/email_manager'
 require './lib/ienpop/testError'
 require 'sinatra/reloader'
 require 'rack-google-analytics'
+require 'recaptcha'
 
 class IENPOP < Sinatra::Base
   register Sinatra::ConfigFile
@@ -23,6 +24,11 @@ class IENPOP < Sinatra::Base
     after_reload do
       puts 'reloaded'
     end
+  end
+
+  Recaptcha.configure do |config|
+    config.site_key  = ''
+    config.secret_key = ''
   end
 
   use Rack::GoogleAnalytics, :tracker => settings.maps['id_analytics']
@@ -43,6 +49,10 @@ class IENPOP < Sinatra::Base
     enable_starttls_auto = settings.mail['enable_starttls_auto']
     address_mail = settings.mail['address_mail']
 
+    site_key = settings.capcha['site_key']
+    secret_key = settings.capcha['secret_key']
+    puts site_key
+    puts secret_key
     @course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
     @managers_manager = ManagersManager.new
     @sedes_manager = SedesManager.new
