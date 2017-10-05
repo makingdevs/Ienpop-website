@@ -26,7 +26,7 @@ class EmailManager
     sede = params['sedes']
 
     central_sede_email =  sedes[0].email
-    puts email
+    
     begin     
       message = Mail.deliver({:to => "#{sede}",
             :from => @address_mail,
