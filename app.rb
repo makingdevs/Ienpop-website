@@ -96,7 +96,10 @@ class IENPOP < Sinatra::Base
       puts "Por favor completa los campos obligatorios"
       flash[:warning] = "Por favor completa los campos obligatorios"
       redirect '/contact'
+    elsif  !verify_recaptcha
+      puts "No!!!"
     else
+      puts "Yesss!!"
       sedes = @sedes_manager.list_all_sedes
       flag = @email_manager.send_email(params,sedes)
 
