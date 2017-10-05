@@ -121,7 +121,7 @@ DEPENDENCIES
   puma (~> 3.10.0)
   rack-google-analytics (~> 1.2)
   rake (~> 12.0)
-  recaptcha (~> 4.3, >= 4.3.1)
+  recaptcha
   sinatra-contrib (~> 2.0)
   sinatra-flash (~> 0.3.0)
 
