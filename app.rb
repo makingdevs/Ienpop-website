@@ -26,10 +26,10 @@ class IENPOP < Sinatra::Base
     end
   end
 
-  Recaptcha.configure do |config|
-    config.site_key  = ''
-    config.secret_key = ''
-  end
+  include Recaptcha::Verify
+  include Recaptcha::ClientHelper
+
+
 
   use Rack::GoogleAnalytics, :tracker => settings.maps['id_analytics']
 
@@ -49,15 +49,20 @@ class IENPOP < Sinatra::Base
     enable_starttls_auto = settings.mail['enable_starttls_auto']
     address_mail = settings.mail['address_mail']
 
-    site_key = settings.capcha['site_key']
-    secret_key = settings.capcha['secret_key']
-    puts site_key
-    puts secret_key
+    @site_key = settings.capcha['site_key']
+    @secret_key = settings.capcha['secret_key']
+   
     @course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
     @managers_manager = ManagersManager.new
     @sedes_manager = SedesManager.new
     @email_manager = EmailManager.new(server_mail, port_mail, authentication, user_name, password_mail, enable_starttls_auto, address_mail)
     @error = Error.new
+
+    Recaptcha.configure do |config|
+      config.site_key  = @site_key
+      config.secret_key = @secret_key
+    end
+  
   end
 
   get '/' do
