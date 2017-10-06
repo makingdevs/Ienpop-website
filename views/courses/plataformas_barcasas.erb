@@ -4,15 +4,15 @@
 
     <%  @courses.each do |c| %>
     <div class="row">
-          <div class="col-md-9 col-sm-9 col-9 col-lg-9 innercursos center-block text-center">
-              <header>
-                <% uppercase = c.name.upcase %>
-                <h1><%= uppercase  %></h1>
-                <% des = c.description.to_s %>
-                <% values = des.split(/\r\n/) %>
-                <p> <%=values[0] %></p>
-              </header>
-          </div><!-- /.col -->
+      <div class="col-md-9 col-sm-9 col-9 col-lg-9 innercursos center-block text-center">
+  
+        <% uppercase = c.name.upcase %>
+        <h1 class="responsive-text"><%= uppercase  %></h1>
+        <% des = c.description.to_s %>
+        <% values = des.split(/\r\n/) %>
+        <p> <%=values[0] %></p>
+             
+      </div><!-- /.col -->
     </div><!-- /.row -->
     <%
     end
