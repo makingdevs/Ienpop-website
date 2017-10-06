@@ -49,13 +49,20 @@
 	.letter-size{
 		font-size: 20px !important;
 	}
+	.responsive-text{
+		font-size: 30px !important;
+	}
+	.paragraph-resposive{
+		color: #bbc2ca !important;
+		font-size: 19px;
+	}
 }
 
 @media (min-width: 768px) {
 	.letter-size{
 		font-size: 30px !important;
 	}
- }
+}
 
 @media (min-width: 992px) { 
 	.letter-size{
@@ -64,6 +71,7 @@
 	.description-size{
 		font-size: 15px !important;
 	}
+	
 }
 @media (min-width: 1200px) { 
 	.letter-size{
@@ -72,6 +80,8 @@
 	.description-size{
 		font-size: 30px !important;
 	}
+	
+
 }
 
 .justify-paragraph{
@@ -134,3 +144,15 @@
   opacity: 1;
   font-size: 15px !important:;
 } 
+.innercursos{
+	padding-top: 80px;
+	padding-bottom: 80px
+}
+div .padding-pagination{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+p{
+	color: #fff !important;
+	font-size: 20px !important;
+}
