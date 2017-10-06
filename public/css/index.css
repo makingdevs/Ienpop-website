@@ -49,9 +49,18 @@
 	.letter-size{
 		font-size: 20px !important;
 	}
+
 	.iframe-responsive{
 		width: 100%;
 		height: 250px;
+	}
+	.responsive-text{
+		font-size: 30px !important;
+	}
+	.paragraph-resposive{
+		color: #bbc2ca !important;
+		font-size: 19px;
+
 	}
 }
 
@@ -64,7 +73,7 @@
 		width: 100%;
 		height: 440px;
 	}
- }
+}
 
 @media (min-width: 992px) {
 	.letter-size{
@@ -86,11 +95,13 @@
 	.description-size{
 		font-size: 30px !important;
 	}
+
 	.iframe-responsive{
 		/*width: 530px;*/
 		width: 106%;
 		height: 390px;
 	}
+
 }
 
 .justify-paragraph{
@@ -167,3 +178,6 @@
     white-space: normal !important;
     word-wrap: break-word;
 }
+
+
+
