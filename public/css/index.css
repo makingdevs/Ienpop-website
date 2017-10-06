@@ -107,3 +107,8 @@
     border-color: #E6E9ED;
     color: #28b4ce;
 }
+
+.button-margin-footer {
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
