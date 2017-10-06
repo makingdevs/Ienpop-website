@@ -107,3 +107,30 @@
     border-color: #E6E9ED;
     color: #28b4ce;
 }
+.dark-bg select{
+	color: #0c0e0e;
+	font-size: 16px;
+}
+
+.dark-bg input, .dark-bg textarea {
+	color: #0c0e0e;
+	font-size: 16px;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #44474a !important;
+  font-size: 15px !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #44474a !important;
+  font-size: 15px !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #44474a !important;
+  opacity: 1;
+  font-size: 15px !important;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color:  #44474a !important;
+  opacity: 1;
+  font-size: 15px !important:;
+} 
