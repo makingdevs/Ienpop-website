@@ -109,6 +109,14 @@
 }
 
 .button-margin-footer {
-    margin-left: 150px;
-    margin-bottom: 25px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+.button-margin-footer-centre {
+    margin-left: 30%;
+    margin-bottom: 30%;
+    white-space: normal !important;
+    word-wrap: break-word;
 }
