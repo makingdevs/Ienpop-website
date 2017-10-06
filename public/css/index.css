@@ -49,11 +49,20 @@
 	.letter-size{
 		font-size: 20px !important;
 	}
+	.iframe-responsive{
+		width: 100%;
+		height: 250px;
+	}
 }
 
 @media (min-width: 768px) {
 	.letter-size{
 		font-size: 30px !important;
+	}
+	.iframe-responsive{
+		/*width: 300px;*/
+		width: 100%;
+		height: 440px;
 	}
  }
 
@@ -64,6 +73,11 @@
 	.description-size{
 		font-size: 15px !important;
 	}
+	.iframe-responsive{
+		/*width: 420px;*/
+		width: 106%;
+		height: 390px;
+	}
 }
 @media (min-width: 1200px) { 
 	.letter-size{
@@ -71,6 +85,11 @@
 	}
 	.description-size{
 		font-size: 30px !important;
+	}
+	.iframe-responsive{
+		/*width: 530px;*/
+		width: 106%;
+		height: 390px;
 	}
 }
 
