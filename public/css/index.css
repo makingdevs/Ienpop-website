@@ -120,3 +120,6 @@
     white-space: normal !important;
     word-wrap: break-word;
 }
+.button-margin{
+	margin-left: 1% !important;
+}
