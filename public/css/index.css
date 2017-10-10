@@ -194,15 +194,15 @@
     word-wrap: break-word;
 }
 
-.responsive-bottom:hover{
-	background-color: #28b4ce;
-	
-}
-
 .button-margin{
 	margin-left: 1% !important;
 }
 .margin-btn{
 	margin-top: 5% !important;
 }
+
+.responsive-bottom:hover{
+	background-color: #28b4ce;
+}
+
 
