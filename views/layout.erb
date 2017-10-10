@@ -115,8 +115,12 @@
                       <a href="/contact">CONTACTO</a>
                     </li><!-- /.dropdown -->
                 </ul><!-- /.nav -->
-
-                  <img src="images/ienpop-l.png" class="nav-logo" alt="Logo de IENPOP">
+               <% if @logoFlag == true %>
+                      <% puts "estoy dentro del if" %>
+                      <img src="images/ienpop-l.png" class="nav-logo" alt="Logo de IENPOP"> 
+               <% end %>
+                  
+              
                
         <!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
 

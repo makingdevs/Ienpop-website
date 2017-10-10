@@ -72,23 +72,23 @@ class IENPOP < Sinatra::Base
   end
 
   get '/home' do
-    @saludo = false
+    @logoFlag = false
     erb :index
   end
 
   get '/about' do
-    @saludo = true
+    @logoFlag = true
     erb :about
   end
 
   get '/contact' do
-    @saludo = true
+    @logoFlag = true
     @sedes = @sedes_manager.list_all_sedes
     erb :contact
   end
 
   get '/sedes' do
-    @saludo = true
+    @logoFlag = true
     @managers = @managers_manager.list_all_manager
     @sedes = @sedes_manager.list_all_sedes
     @api_key = settings.maps['api_key']
@@ -120,7 +120,7 @@ class IENPOP < Sinatra::Base
 
 
   get '/libreta_int_lib' do
-    @saludo = true
+    @logoFlag = true
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = @course_manager.count_courses_notebook('A')
@@ -137,7 +137,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/libreta_int_cer' do
-    @saludo = true
+    @logoFlag = true
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = @course_manager.count_courses_certification_courses('A')
@@ -154,7 +154,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/turistico_lib' do
-    @saludo = true
+    @logoFlag = true
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = @course_manager.count_courses_notebook('C')
@@ -171,7 +171,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/turistico_cer' do
-    @saludo = true
+    @logoFlag = true
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = @course_manager.count_courses_notebook('C')
@@ -188,7 +188,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/pescadores_lib' do
-    @saludo = true
+    @logoFlag = true
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = @course_manager.count_courses_notebook('B')
@@ -205,7 +205,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/pescadores_cer' do
-    @saludo = true
+    @logoFlag = true
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = @course_manager.count_courses_certification_courses('B')
@@ -222,7 +222,7 @@ class IENPOP < Sinatra::Base
   end
 
   get '/plataformas_barcasas' do
-    @saludo = true
+    @logoFlag = true
     limit = params['limit'] || 10
     page = params['page'] || 0
     count = @course_manager.count_courses_notebook('D')
