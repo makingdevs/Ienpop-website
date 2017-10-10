@@ -204,5 +204,14 @@
 .responsive-bottom:hover{
 	background-color: #28b4ce;
 }
+.nav-logo{
+	width: 15%;
+	margin-left: 18%;
+	height: 101px;
+}
+
+.position-nav{
+	display: inline-block;
+}
 
 
