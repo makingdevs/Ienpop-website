@@ -102,6 +102,12 @@
 		width: 106%;
 		height: 390px;
 	}
+	.nav-logo{
+		width: 15%;
+		margin-left: 4%;
+		height: 101px;
+	}
+
 }
 @media (min-width: 1200px) {
 	.letter-size{
@@ -115,6 +121,11 @@
 		/*width: 530px;*/
 		width: 106%;
 		height: 390px;
+	}
+	.nav-logo{
+		width: 15%;
+		margin-left: 18%;
+		height: 101px;
 	}
 
 }
@@ -203,11 +214,6 @@
 
 .responsive-bottom:hover{
 	background-color: #28b4ce;
-}
-.nav-logo{
-	width: 15%;
-	margin-left: 18%;
-	height: 101px;
 }
 
 .position-nav{
