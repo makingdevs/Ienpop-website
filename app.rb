@@ -76,7 +76,6 @@ class IENPOP < Sinatra::Base
   get '/home' do
     @logoFlag = false
     @url_video
-    puts @url_video
     erb :index
   end
 
