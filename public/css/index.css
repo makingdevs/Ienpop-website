@@ -219,5 +219,8 @@
 .position-nav{
 	display: inline-block;
 }
-
+.style-footer{
+	color: #44484c !important;
+	font-size: 21px;
+}
 
