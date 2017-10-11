@@ -51,7 +51,9 @@ class IENPOP < Sinatra::Base
 
     @site_key = settings.capcha['site_key']
     @secret_key = settings.capcha['secret_key']
-   
+
+    @url_video = settings.url['url_video']
+    
     @course_manager = CourseManager.new(username_db, host_db, db, password_db, encoding_db)
     @managers_manager = ManagersManager.new
     @sedes_manager = SedesManager.new
@@ -73,6 +75,7 @@ class IENPOP < Sinatra::Base
 
   get '/home' do
     @logoFlag = false
+    @url_video
     erb :index
   end
 
