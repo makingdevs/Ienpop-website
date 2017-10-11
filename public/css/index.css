@@ -103,9 +103,9 @@
 		height: 390px;
 	}
 	.nav-logo{
-		width: 15%;
 		margin-left: 4%;
-		height: 101px;
+		height: 85px;
+
 	}
 
 }
@@ -123,9 +123,8 @@
 		height: 390px;
 	}
 	.nav-logo{
-		width: 15%;
 		margin-left: 18%;
-		height: 101px;
+		height: 85px;
 	}
 
 }
@@ -218,6 +217,14 @@
 
 .position-nav{
 	display: inline-block;
+}
+
+.style-footer{
+	color: #44484c !important;
+	font-size: 21px;
+}
+.style-div{
+	min-height: 0;
 }
 
 
