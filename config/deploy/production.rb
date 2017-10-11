@@ -5,7 +5,7 @@
 
 set :deploy_to, "/var/www/#{fetch(:application)}/production"
 set :stage, :production
-set :branch, "feature/70"
+set :branch, "production"
 
 server "ienpop.com", user: "ec2-user", roles: %w{app web}
 
