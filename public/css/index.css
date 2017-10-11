@@ -103,6 +103,12 @@
 		width: 106%;
 		height: 390px;
 	}
+	.nav-logo{
+		width: 15%;
+		margin-left: 4%;
+		height: 101px;
+	}
+
 }
 @media (min-width: 1200px) {
 	.letter-size{
@@ -116,6 +122,11 @@
 		/*width: 530px;*/
 		width: 106%;
 		height: 390px;
+	}
+	.nav-logo{
+		width: 15%;
+		margin-left: 18%;
+		height: 101px;
 	}
 
 }
@@ -207,5 +218,12 @@
 	background-color: #28b4ce;
 }
 
+.position-nav{
+	display: inline-block;
+}
+.style-footer{
+	color: #44484c !important;
+	font-size: 21px;
+}
 
 

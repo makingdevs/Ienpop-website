@@ -49,11 +49,11 @@
 
         <div class="yamm">
           <div class="navbar-collapse collapse affix-top animate">
-            <div class="container">
+            <div class="container ">
 
 
-
-                <ul class="nav navbar-nav navbar">
+    
+                <ul class="nav navbar-nav navbar position-nav">
                   
                     <li>
                       <a href="/home">INICIO</a>
@@ -115,7 +115,12 @@
                       <a href="/contact">CONTACTO</a>
                     </li><!-- /.dropdown -->
                 </ul><!-- /.nav -->
-
+               <% if @logoFlag == true %>
+                      <img src="images/ienpop-l.png" class="nav-logo hidden-xs hidden-xs-down" alt="Logo de IENPOP"> 
+               <% end %>
+                  
+              
+               
         <!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
 
 
@@ -134,7 +139,7 @@
 
     <footer class="footer-bottom">
       <div class="container inner">
-        <p class="pull-right">© 2017 Instituto de Educaci&oacute;n N&aacute;utica y Portuaria Oc&eacute;ano Pac&iacute;fico SA de CV</p>
+        <p class="pull-left style-footer">© 2017 Instituto de Educaci&oacute;n N&aacute;utica y Portuaria Oc&eacute;ano Pac&iacute;fico SA de CV</p>
       </div><!-- .container -->
     </footer>
  
