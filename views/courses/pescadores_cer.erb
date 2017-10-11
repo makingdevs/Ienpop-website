@@ -4,15 +4,15 @@
 
     <%  @courses.each do |c| %>
     <div class="row">
-          <div class="col-md-8 col-sm-9 innercursos center-block text-center">
-              <header>
-                <% uppercase = c.name.upcase %>
-                <h1><%= uppercase  %></h1>
-                <% des = c.description.to_s %>
-                <% values = des.split(/\r\n/) %>
-                <p> <%=values[0] %></p>
-              </header>
-          </div><!-- /.col -->
+      <div class="col-md-8 col-sm-9 col-9 col-lg-9 innercursos center-block text-center">
+              
+        <% uppercase = c.name.upcase %>
+        <h1 class="responsive-text"><%= uppercase  %></h1>
+        <% des = c.description.to_s %>
+        <% values = des.split(/\r\n/) %>
+        <p> <%=values[0] %></p>
+              
+      </div><!-- /.col -->
     </div><!-- /.row -->
     <%
     end
@@ -21,7 +21,7 @@
      <% if(@flag_show_pagination == false) %>
        <%  puts @number_pages %>
      <% else %>
-       <div class="col-md-6 col-md-offset-5 col-sm-6 col-sm-offset-5 padding-pagination">
+       <div class="col-md-6 col-md-offset-5 col-sm-6 col-sm-offset-5 col-5 padding-pagination">
          <nav aria-label="Page navigation">
          <ul class="pagination pagination-lg">
            <% @number_pages.times { |a|  %>
